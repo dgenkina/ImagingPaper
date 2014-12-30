@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  19 DEC 2014 11:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  29 DEC 2014 18:44
 entering extended mode
 **//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
 maging*paper/draft1.tex
@@ -249,14 +249,38 @@ Overfull \hbox (76.5503pt too wide) in paragraph at lines 150--152
  &imaging paper/figure8.png>] [11 <//elwood.nist.gov/684/users/dng5/My Document
 s/papers etc/S-wave scattering &imaging paper/figure9a.png> <//elwood.nist.gov/
 684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figure9
-b.png>]
+b.png>] <figure10a.png, id=79, 175.3752pt x 234.6366pt>
+File: figure10a.png Graphic file (type png)
+ <use figure10a.png>
+Package pdftex.def Info: figure10a.png used on input line 168.
+(pdftex.def)             Requested size: 140.30034pt x 187.70952pt.
+
+<figure10b.png, id=80, 173.448pt x 234.6366pt>
+File: figure10b.png Graphic file (type png)
+ <use figure10b.png>
+Package pdftex.def Info: figure10b.png used on input line 169.
+(pdftex.def)             Requested size: 138.75858pt x 187.70952pt.
+ [12]
+[13 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
+ &imaging paper/figure10a.png> <//elwood.nist.gov/684/users/dng5/My Documents/p
+apers etc/S-wave scattering &imaging paper/figure10b.png>]
+<figure12.png, id=90, 578.16pt x 431.4519pt>
+File: figure12.png Graphic file (type png)
+ <use figure12.png>
+Package pdftex.def Info: figure12.png used on input line 194.
+(pdftex.def)             Requested size: 329.55463pt x 245.93015pt.
+
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
 maging paper\draft1.bbl"
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
-) [12]
+) [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
+g &imaging paper/figure12.png>]
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
 maging paper\draft1.aux")
 
@@ -264,10 +288,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2116 strings out of 493921
- 26306 string characters out of 3144879
- 81632 words of memory out of 3000000
- 5390 multiletter control sequences out of 15000+200000
+ 2134 strings out of 493921
+ 26602 string characters out of 3144879
+ 81662 words of memory out of 3000000
+ 5405 multiletter control sequences out of 15000+200000
  12066 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,26p,1141b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -290,9 +314,9 @@ fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (12 pages, 717525 bytes).
+Output written on draft1.pdf (15 pages, 1716335 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
