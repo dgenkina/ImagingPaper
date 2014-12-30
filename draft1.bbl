@@ -1,14 +1,47 @@
 \begin{thebibliography}{1}
 
-\bibitem{Reinaudi07}
-Z.~Wang G.~Reinaudi, T.~Lahaye and D.~Guery-Odelin.
-\newblock Strong saturation absorption imaging of dense clouds of ultracold
-  atoms.
-\newblock {\em Optics Letters}, 32(21):3143--3145, 2007.
+\bibitem{Chin10}
+Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
+\newblock Feshbach resonances in ultracold gases.
+\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, Apr 2010.
 
 \bibitem{LJLthesis}
 Lindsey~J. LeBlanc.
 \newblock {\em Exploring many-body physics with ultracold atoms}.
 \newblock PhD thesis, University of Toronto, 2011.
+
+\bibitem{Monroe93}
+C.~Monroe, E.~Cornell, C.~Sackett, C.~Myatt, and C.~Wieman.
+\newblock Measurement of cs-cs elastic scattering at \textit{T} =30 $\mu${}k.
+\newblock {\em Phys. Rev. Lett.}, 70:414--417, Jan 1993.
+
+\bibitem{OHara02}
+K.~M. O'Hara, S.~L. Hemmer, M.~E. Gehm, S.~R. Granade, and J.~E. Thomas.
+\newblock Observation of a strongly interacting degenerate fermi gas of atoms.
+\newblock {\em Science}, 298(5601):2179--2182, 2002.
+
+\bibitem{Regal03}
+C.~Regal and D.~Jin.
+\newblock Measurement of positive and negative scattering lengths in a fermi
+  gas of atoms.
+\newblock {\em Phys. Rev. Lett.}, 90:230404, Jun 2003.
+
+\bibitem{Reinaudi07}
+G.~Reinaudi, T.~Lahaye, Z.~Wang, and D.~Gu\'{e}ry-Odelin.
+\newblock Strong saturation absorption imaging of dense clouds of ultracold
+  atoms.
+\newblock {\em Opt. Lett.}, 32(21):3143--3145, Nov 2007.
+
+\bibitem{Williams2012}
+R.~A. Williams, L.~J. LeBlanc, K.~Jiménez-García, M.~C. Beeler, A.~R. Perry,
+  W.~D. Phillips, and I.~B. Spielman.
+\newblock Synthetic partial waves in ultracold atomic collisions.
+\newblock {\em Science}, 335(6066):314--317, 2012.
+
+\bibitem{Wu05}
+Saijun Wu, Ying-Ju Wang, Quentin Diot, and Mara Prentiss.
+\newblock Splitting matter waves using an optimized standing-wave light-pulse
+  sequence.
+\newblock {\em Phys. Rev. A}, 71:043602, Apr 2005.
 
 \end{thebibliography}

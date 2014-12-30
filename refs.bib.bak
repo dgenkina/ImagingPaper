@@ -2,23 +2,6 @@
 % Encoding: UTF8
 
 
-@Article{Chin10,
-  Title                    = {Feshbach resonances in ultracold gases},
-  Author                   = {Chin, Cheng and Grimm, Rudolf and Julienne, Paul and Tiesinga, Eite},
-  Journal                  = {Rev. Mod. Phys.},
-  Year                     = {2010},
-
-  Month                    = {Apr},
-  Pages                    = {1225--1286},
-  Volume                   = {82},
-
-  Doi                      = {10.1103/RevModPhys.82.1225},
-  Issue                    = {2},
-  Numpages                 = {62},
-  Publisher                = {American Physical Society},
-  Url                      = {http://link.aps.org/doi/10.1103/RevModPhys.82.1225}
-}
-
 @PhdThesis{LJLthesis,
   Title                    = {Exploring many-body physics with ultracold atoms},
   Author                   = {Lindsey J. LeBlanc},
@@ -111,7 +94,7 @@
   Url                      = {http://www.sciencemag.org/content/335/6066/314.abstract}
 }
 
-@Article{Wu05,
+@Article{PhysRevA.71.043602,
   Title                    = {Splitting matter waves using an optimized standing-wave light-pulse sequence},
   Author                   = {Wu, Saijun and Wang, Ying-Ju and Diot, Quentin and Prentiss, Mara},
   Journal                  = {Phys. Rev. A},
