@@ -1,0 +1,123 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Something about s-wave scattering and long imaging times
+\end_layout
+
+\begin_layout Author
+Me and Others
+\end_layout
+
+\begin_layout Abstract
+Everyone loves the potential for p-wave superfluids.
+ Raman coupling allows for that possiblity.
+ But how do we know if they are truly p-wave? We'll have to actually scatter
+ them and observe anisotropic distribution.
+ First, develop methodology by s-wave scattering Fermi clouds at differnet
+ feilds around the Feshbach resonance and observed the distribution.
+ We developed a method to correct for recoil induced detuning during long
+ imaging times using a simulation, and use it to process our s-wave scattering
+ data.
+ 
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+Simulating imaging with large recoil induced detuning corrections
+\end_layout
+
+\begin_layout Standard
+Absorption imaging is a fundamental technique for imaging atomic clouds.
+ Generally, it is used in a regime where it is described by the simple equation
+ [1].
+ 
+\end_layout
+
+\begin_layout Subsection
+Testing the simulation in analytically accessible limits
+\end_layout
+
+\begin_layout Subsection
+Exploring properties of the model: insensitivity to initial cloud shape
+\end_layout
+
+\begin_layout Subsection
+Using the model to extract our experimental saturation intensity
+\end_layout
+
+\begin_layout Subsection
+Correcting the s-wave scattering data
+\end_layout
+
+\begin_layout Section
+S-wave scattering data
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\end_body
+\end_document

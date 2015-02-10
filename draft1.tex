@@ -6,11 +6,15 @@
 \usepackage{subfigure}
 \usepackage{cite}
 
+
+
 \begin{document}
+\newcommand{\swave}[0]{$\it{s}$-wave }
+\newcommand{\K}{ $^{40}\rm{K}$}
 
-\title[]{Observation of S-wave scattering of fermions accross a Feshbach resonance}
+\title[]{Direct observation of \swave scattering of fermions crossing a Feshbach resonance}
 
-\author{D Genkina$^1$, LM Aycock$^{1,2}$, BK Stuhl$^1$, Hsin-I Lu$^1$ and IB Spielman
+\author{D Genkina$^1$, LM Aycock$^{1,2}$, BK Stuhl$^1$, H-I Lu$^1$ and IB Spielman
 $^1$\footnote{Corresponding author}}
 
 \address{$^1$Joint Quantum Institute, National Institute of Standards and Technology, and University of Maryland, Gaithersburg, MD, 20899 USA}
@@ -19,11 +23,10 @@ $^1$\footnote{Corresponding author}}
 \ead{spielman@umd.edu}
 
 \begin{abstract}
-We present results on mapping out an s-wave Feshbach resonance in fermionic $^{40}$K by directly observing atom scattering over a range of 
-magnetic field strenghts. To optimize signal to noise, we develop techniques to interpret absorption imaging in the regime where recoil induced 
-detuning corrections are significant. We apply these techniques to our s-wave scattering data to extract an estimate for the resonant magnetic
-field value. These techniques can be applied to observation of effective p-wave scattering in the presence of spin-orbit coupling in a spin polarized 
-Fermi gas.
+We directly mapped \swave scattering across a Feshbach resonance in\K. In this experiment, we collided a pair of degenerate clouds and directly imaged the scattered atoms. Owing to their low density, few atoms scattered, even near the resonance. To optimize signal to noise, we develop techniques to interpret absorption imaging in the regime where the optical intensity changes dramatically as light traverses the cloud, and recoil induced 
+detuning corrections are significant. We apply these techniques to our \swave scattering data to extract an estimate for the resonant magnetic
+field value. These techniques are generally applicable, and can be used to observe effective p-wave scattering in the presence of spin-orbit coupling in a spin polarized  Fermi gas.
+
 \end{abstract}
 
 \vspace{2pc}
@@ -32,12 +35,18 @@ Fermi gas.
 \maketitle
 
 \section{Introduction}
-Feshbach resonances are a staple tool in the study of cold Fermi gases. Interatomic interactions in Bose-Einstein condensates are easily detected due to the high density of the cloud. However, the density of Fermi clouds is reduced by a factor of $~10^3$ from that of BECs. This makes it necessary to enhance the scattering cross section to observe any effects of interaction. Feshbach resonances allow one to tune the scattering length by changing the magnetic field. Not ony do they enable detection of interactions, but they make it possible to tune interactions from attractive to repulsive, allowing for the phase transition from the BCS to BEC regime at sufficiently low temperatures. 
-\par However, to take advantage of Feshbach resonances as a tool it  is first necessary to have a good undestanding of the relationship between the bias magnetic field and the scattering cross section near a Feshbach resonance for specific species and hyperfine states.  The exact value of the resonance is difficult to calculate analytically and must be determined experimentally. Currently, Feshbach resonances are mapped out by observing loss due to three-body inelastic scattering or by re-thermalization or anisotropic expansion measurements that infer the elastic scattering cross section from collective behavior of the cloud \cite{Regal03,OHara02,Monroe93}. 
-\par We collide two clouds of $^{40}K$ atoms in a mixture of $\ket{9/2,-9/2}$ and $\ket{9/2,-7/2}$ hyperfine states and directly image the resulting s-wave scattering halo as a function magnetic field strength. This allows us to directly observe the enhancement in scattering without relying on collective behavior. We calculate the fraction of atoms that scattered during the collision, and from this scattering fraction deduce the resonant magnetic field  and width of the resonance.
-\par The techniques developed in this experiment for observing Fermion scattering can be extended to engineering higher order partial wave interactions, as has been done for bosons \cite{Williams2012}.
-\par However, even with Feshbach resonance enhancement of the scattering cross section, Fermi gases are dilute enough that very few atoms will scatter as a fraction of total atom number. This makes direct detection of s-wave scattering halo difficult due to detection uncertainty, which dispraportionally effects low atom numbers. In order to optimize the signal to noise for low atom numbers, we increased our imaging time.  However, above saturation absorption imaging at sufficiently long exposure times poses a particular problem - if the atoms have had time to absorb enough photons such that the recoil velocity Doppler shifts them from resonance on the order of the linewidth of the resonance, this recoil-induced detuning is a significant correction to the observed absorption of the probe light. In order to take this correction into account, we simulate the imaging process and use the results to extract the atom number and the scattered fraction from our images.
-\par This paper is in two parts. In the first, we study absorption imaging in the presence of significant recoil-induced detuning and show how we use our results to interpret data. In the second, we describe our s-wave scattering experiment and, after correcting our data for recoil-induced detuning, extract a measure of the location of the Feshbach resonance in $^{40}K$. 
+Feshbach resonances provide a stand-by technique for tuning the interaction strength in ultracold atomic gases. Even weak interactions play a crucial role in the physics of atomic Bose-Einstein Condensates (BECs), giving rise to, for example, their characteristic Thomas-Fermi density profiles. The effects of interactions in Fermi gases, however, are harder to observe. The density of Fermi clouds is reduced by a factor of $~10^3$ from that of BECs, making it necessary to enhance the strength of interactions in order to observe them. Feshbach resonances alter the inter-atomic scattering length via the magnetic field. Not only do they enable detection of interactions, but they make it possible to tune interactions from attractive to repulsive, allowing for the phase transition from the BCS to BEC regime at sufficiently low temperatures \cite{RegalThesis}. 
+\par A Feshbach resonance occurs when a bound molecular state of two atoms energetically approaches the free atomic state \cite{Chin10}. The energy of the atomic states is defined by their hyperfine state and tunable with a bias magnetic field. The Feshbach resonance can thus be approached by changing the bias field. The effect of the resonance on the scattering length between two free atoms in the appropriate hyperfine state is given by 
+\begin{equation}
+a(B)=a_{bg}\left(1-\frac{\Delta}{B-B_0}\right),
+\label{feshbachEq}
+\end{equation}
+where $a$ is the scattering length, $a_{bg}$ is the scattering length away from the resonance, $\Delta$ is the width of the resonance, and $B_0$ is the field value at which the resonance occurs. Note that the scattering length tends to infinity from either side of the resonance.
+\par To use Feshbach resonances as a tool it  is necessary to have a good measurement of the parameters in the above equation.  The exact value of the resonant field value $B_0$ is impossible to calculate analytically and must be estimated via numerical models or determined experimentally. Some experimental techniques that have been used include observation of loss due to three-body inelastic scattering, measurements of re-thermalization timescales, or measurements of anisotropic expansion, all of which infer the elastic scattering cross section from collective behavior of the cloud \cite{Regal03,OHara02,Monroe93}. 
+\par Here we present a new technique for measuring the location and width of a Feshbach resonance. We collide two clouds of a degenerate Fermi gas and directly image the resulting \swave scattering halo as a function magnetic field strength. This allows us to directly observe the enhancement in scattering without relying on collective behavior. We measured the fraction of atoms scattered during the collision, and from this fraction deduced the resonant magnetic field  and width of the resonance.
+%\par The techniques developed in this experiment for observing Fermion scattering can be extended to engineering higher order partial wave interactions, as has been done for bosons \cite{Williams2012}.
+\par Our Fermi gases are so dilute that even with Feshbach resonance enhancement of the scattering cross section, very few atoms will scatter as a fraction of total atom number. This makes direct detection of \swave scattering halos difficult due to detection uncertainty, which disproportionately effects low atom numbers. In order to optimize the signal to noise for low atom numbers, we entered an imaging regime that relies on simulation for an accurate interpretation of the images. We performed these simulations and used the results to extract the atom number and the scattered fraction from our images.
+\par This paper is in two parts. In the first, we study absorption imaging in the presence of significant Doppler shift and show how we use our results to interpret data. In the second, we describe our\swave scattering experiment and extract a measure of the location of the Feshbach resonance in \K. 
 
 \section{Absorption imaging in the presence of strong recoil induced detuning}
 Absorption imagaing is one of the two most common imaging techniques used in ultracold atomic physics, fluorescence imaging being the other. To obtain an absorption image, one shines an on or near resonant probe beam onto the atomic cloud, and captures the part of the beam that made it through the cloud onto a camera. Then, the atoms are allowed to leave the trap, and the probe light is shined directly at the camera, to calibrate the intensity of light that the atoms saw. The intensity in the second camera image at some point in time is called the initial intensity, $I_{0}(t)$, as it is assumed to be the intensity before interaction with atoms. The intensity in the first image at some point in time is called the final intensity, $I_f(t)$.  
@@ -200,7 +209,9 @@ The accepted values for the $^{40}K$ s-wave Feshbach resonance for the  $\ket{9/
 \section{Conclusion}
 We studied the effects of recoil-induced detuning effects on absorption images and found an optimal imaging time of ~40$\mu s$ for $^{40}K$ atoms for noise minimization after corrections. We use these results to observe s-wave scattering halos of the Fermi gas around the Feshbach resonance and directly verify the resonance location and width. Our analysis can be used in any absorption imaging applications where signal to noise minimization is critical. Experimental techniques devoloped for our s-wave scattering expeiment can be readily extended to a Raman-coupled single component gas version, in which we hope to detect synthetic p-wave interactions. 
 \section*{Acknowledgements}
-We thank Marcell Gall for helpful discussions. This work was supported by ???
+We thank Marcell Gall for helpful discussions. This work was partially supported by the ARO’s Atomtronics MURI, by the
+AFOSR’s Quantum Matter MURI, NIST, and the NSF through the PFC at the JQI. B.K.S. is
+a NIST-NRC Postdoctoral Research Associate. L.M.A. was supported by the NSF GRFP.
 
 \section*{References}
 \bibliography{refs}{}
