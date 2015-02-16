@@ -10,6 +10,7 @@
 
 \begin{document}
 \newcommand{\swave}[0]{$\it{s}$-wave }
+\newcommand{\pwave}[0]{$\it{p}$-wave }
 \newcommand{\K}{ $^{40}\rm{K}$}
 
 \title[]{Direct observation of \swave scattering of fermions crossing a Feshbach resonance}
@@ -50,6 +51,13 @@ where $a$ is the scattering length, $a_{bg}$ is the scattering length away from 
 
 \section{Absorption imaging in the presence of strong recoil induced detuning}
 Absorption imagaing is one of the two most common imaging techniques used in ultracold atomic physics, fluorescence imaging being the other. To obtain an absorption image, one shines an on or near resonant probe beam onto the atomic cloud, and captures the part of the beam that made it through the cloud onto a camera. Then, the atoms are allowed to leave the trap, and the probe light is shined directly at the camera, to calibrate the intensity of light that the atoms saw. The intensity in the second camera image at some point in time is called the initial intensity, $I_{0}(t)$, as it is assumed to be the intensity before interaction with atoms. The intensity in the first image at some point in time is called the final intensity, $I_f(t)$.  
+\begin{figure}
+	\subfigure[]{\includegraphics*[scale=0.6]{Picture1a}}
+	\subfigure[]{\includegraphics*[scale=0.6]{Picture1b}}
+	\subfigure[]{\includegraphics*[scale=0.4]{Picture1c}}
+\caption{Absorption imaging. a. First, a near resonant probe light is shined on the atoms, and the shadow of that light is imaged on the camera. Then, the atoms are allowed to escape their trap and and image of just the probe light is taken. b. An atomic cloud illuminated by a probe light field absorbs photons from the probe and re-emits them in arbitrary directions. This process results in a net velocity of the cloud in the direction of the probe light as well as diffusive spreading in the transverse directions. c. As the probe beam, travels through the atomic cloud, some of its power is absorbed, and the intensity seen by atoms further along the imaging direction $z$ is lowered.  }  
+\label{fig:absorptionIntor}
+\end{figure}
 \par It is convenient to define the optical density, $\nu=-\ln{\frac{\int{I_f(x,y,t)}\mathrm{d}t}{\int{I_0(x,y,t)}\mathrm{d}t}}$. Assuming the intensity seen by the camera during the first and second pulse is constant in time, this reduces to $\nu=-\ln{\frac{I_f(x,y)}{I_0(x,y)}}$. This is an observed quantity, and it is then the job of the experimentalist to relate it to the number of atoms $n = \int \rho\left(x,y,z\right) \,\mathrm{d}z$, where $\rho$ is the 3d atomic distribution, and $z$ is the imaging axis. Another useful quantity is the optical depth, $OD=\sigma_0\rho$, where $\sigma_0$ is the on-resonant scattering cross section. Though in general one needs a theoretical model to relate the optical density $\nu$ to the optical depth  and thus the atom number, it is convenient that in the limit of zero probe intensity, these quantities coincide, $OD_0=\nu$, as will be seen below. We call this $OD_0$, becaue it is the simplest, in a sense "0th order" model for relating the optical density to the optical depth.
 \par The intensity of light from the beam as a function of distance is equal to the power scattered by the atoms. Without taking the atomic recoil velocity into account, and thus assuming both the intensity at every point in the cloud to be constant in time, this is given by \cite{Reinaudi07}
 \begin{equation}
