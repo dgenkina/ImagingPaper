@@ -54,7 +54,7 @@ Absorption imagaing is one of the two most common imaging techniques used in ult
 \begin{figure}
 	\subfigure[]{\includegraphics*[scale=0.6]{Picture1a}}
 	\subfigure[]{\includegraphics*[scale=0.6]{Picture1b}}
-	\subfigure[]{\includegraphics*[scale=0.4]{Picture1c}}
+	\subfigure[]{\includegraphics*{Picture1c.pdf}}
 \caption{Absorption imaging. a. First, a near resonant probe light is shined on the atoms, and the shadow of that light is imaged on the camera. Then, the atoms are allowed to escape their trap and and image of just the probe light is taken. b. An atomic cloud illuminated by a probe light field absorbs photons from the probe and re-emits them in arbitrary directions. This process results in a net velocity of the cloud in the direction of the probe light as well as diffusive spreading in the transverse directions. c. As the probe beam, travels through the atomic cloud, some of its power is absorbed, and the intensity seen by atoms further along the imaging direction $z$ is lowered.  }  
 \label{fig:absorptionIntor}
 \end{figure}
@@ -79,13 +79,13 @@ where $\Gamma$ is the linewidth of the atomic transition, and $\delta$ is the de
 \end{equation}
 where  $v_r$ is the recoil velocity. In this case, one can no longer obtain a straightforward relation between the atom number and the intensities in the two absorption images.
 \begin{figure}
-	\includegraphics*[scale=0.57]{figure1}
+	\includegraphics*{figure1.pdf}
 \caption{Distribution of generalized detuning $\Delta=\frac{2\delta}{\Gamma}$ accross an atomic cloud of $^{40}K$ for three different imaging times, as obtained by numerical simulation.}  
 \label{fig:detunedBlobs}
 \end{figure}
 \par One can consider this equation perturbatively in time and obtain corrections to second order in imaging time, $OD_2$  \cite{LJLthesis}. However, the perturbative treatment breaks down after about a recoil of imaging time (Figure \ref{fig:ODcorrections}). In order to adequately correct for the recoil induced detuning of the atoms, we must simulate the process and obtain numerical predictions for $I_f$ given a certain imaging time, atomic density, and probe intensity. 
 \begin{figure}
-	\includegraphics[scale=0.57]{figure2}
+	\includegraphics*{figure2.pdf}
 \caption{Using time dependent $I_f$ values obtained from recoil detuning corrected simulation of on-resonant imaging of $^{40}K$ atoms, this graph shows the optical depths each model would deduce from such images. The true optical depth is given at 1.6.$OD_1$ is the high probe intensity corrected optical depth given by \ref{eq2}. $OD_2$ is the model that includes high probe intensity corrections and imaging time corrections from expanding \ref{eq3},\ref{eq4} to second order in imaging time \cite{LJLthesis}. Note that the value obtained using the second order expansion in time starts to differ significantly from the true value after about 15us. The probe intensity is $0.8\, I_{sat}$. }  
 \label{fig:ODcorrections}
 \end{figure}
@@ -114,13 +114,13 @@ which integrates out to
 \end{equation}
 We recognize \ref{eq6} and \ref{eq8} as the two terms in the expression for $OD_1$, \ref{eq2}. Thus, in both limits $OD_{corr}$ should coincide with $OD_1$. Or equivalently, if the optical depth is an input parameter, in those limits both \ref{eq2} and our simulation should produce the same prediction for optical density. Indeed, they coincide as seen in figure \ref{fig:IsatLimits}.
 \begin{figure}
-	\includegraphics[scale=0.57]{figure3}
-\caption{Optical densities as a function of probe intensity as predicted by the simulation and by \ref{eq2}, for three different imaging times. The predictions agree in both the high and low intensity limits, and differ for probe intensitites comparable to the saturation intensity. The difference is enhanced with increased imaging time.}  
+	\includegraphics{figure3.pdf}
+\caption{Optical densities as a function of probe intensity as predicted by the simulation (blue dots) and by eq.[\ref{eq2}] (green lines), for three different imaging times. The predictions agree in both the high and low intensity limits, and differ for probe intensitites comparable to the saturation intensity. The difference is enhanced with increased imaging time.}  
 \label{fig:IsatLimits}
 \end{figure}
 \par Encouraged by the reasonable behavior of our simulation, we can now use it to see if the stationary atom assumption is self consistent, ie if the distance travelled by the atoms in one bin during the imaging time is less than the bin size. However, as can be seen from figure \ref{fig:atomTravel}, it turns out that not only do the atoms travel more than the bin size, but they also travel more than the size of the whole cloud, and the back of the cloud travels less than the beginning for long enough imaging times. Thus, the atomic distribution as a function of position changes dramatically during the imaging time, and our stationary assumption is completely invalid. 
 \begin{figure}
-	\includegraphics[scale=0.57]{figure4}
+	\includegraphics{figure4.pdf}
 \caption{Position of atoms as a function of imaging time for atoms in the first, middle, and last bins of the simulation. The probe intensity here is $1.2 I_{sat}$, and the optical depth is 1.6.}  
 \label{fig:atomTravel}
 \end{figure}
@@ -139,20 +139,20 @@ or in dimensionless form,
 \end{equation}
 where $\Delta = 2\delta/\Gamma$, $\tilde{I} = I_0/I_{sat}$ and $k$ is the photonic wavevector. \ref{eq10} can be integrated and solved exactly with one real root. We can compare that result to our simulation, and it agrees as seen in figure \ref{fig:oneAtomVel}.
 \begin{figure}
-	\includegraphics[scale=0.57]{figure5}
-\caption{The velocity of a single superatom as a function of probe intensity for various imaging times. The dots represent simulation data, while the lines represent analytical solutions.}  
+	\includegraphics{figure5.pdf}
+\caption{The velocity of a single superatom as a function of probe intensity for various imaging times. Simulation data (dots) and analytical solutions (lines) are in good agreement.}  
 \label{fig:oneAtomVel}
 \end{figure}
 \par We are now in a position to study the time dependance of the cloud evolution. This can be visualized as a phase space evolution of superatoms, as seen in figure \ref{fig:phaseSpace}. We see that the cloud shape is actually strongly distorted in the imaging time. 
 \begin{figure}
-	\subfigure[]{\includegraphics[scale=0.42]{figure6a}}
-	\subfigure[]{\includegraphics[scale=0.42]{figure6b}}
-\caption{Phase space evolution of an atomic cloud exposed to probe light of $1.2 I_{sat}$. The optical depth is 1.6, and the initial cloud is a gaussian with width a. 10$\mu m$ and b. 1$\mu m$}  
+	\subfigure[]{\includegraphics{figure6a.pdf}}
+	\subfigure[]{\includegraphics{figure6b.pdf}}
+\caption{Phase space evolution of an atomic cloud exposed to probe light of $1.2 I_{sat}$. We have used $\Delta \rm{v}=\rm{v} -\left< \rm{v}(t) \right>$  and $\Delta \rm{z}=\rm{z}-\left< \rm{z}(t) \right>$, subtracting out the center of mass position and velocity of the cloud. The optical depth is 1.6, and the initial cloud is a gaussian with width a.10$\mu m$ and b.1$\mu m$.}  
 \label{fig:phaseSpace}
 \end{figure}
 \par Having performed both the stationary and traveling atom simulations, we can compare the optical densities predicted by each, which we call $\nu_{corr1}$ and $\nu_{corr2}$ respectively. We find that, depite the significant changes in atomic distribution during the imaging time, the predicted optical densities are so slightly changed by including this effect that it is practically undetectable. In fact, the difference $\left|\nu_{corr1}-\nu_{corr2}\right|/\nu_{corr1} \le 0.05$. Thus, for the purposes of deducing the optical density from experimental optical depths, simply using a stationary model is sufficient. Furthermore, the actual atomic distribution $\rho(z)$ is largely irrelevant, and the only observable is the total atom number $n=\int\rho(z)\mathrm{d}z$. 
 \begin{figure}
-	\includegraphics[scale=0.57]{figure7}
+	\includegraphics{figure7.pdf}
 \caption{Predictions for optical density as a function of probe intensity for an imaging time $t=50\mu s$. Note that the two versions of simulated optical density, $\nu_{corr1}$ and $\nu_{corr2}$ are virtually indistinguishable. }  
 \label{fig:atomTravel}
 \end{figure}
@@ -161,8 +161,8 @@ Now we come to the question of how to interpret the actual ouput of an imaging c
 \par The most accurate way to determine this factor is through a direct experiment. In the limit where the system is adequately described by \ref{eq6}, only the ratio of the initial and final intensities matters, and thus this proportionality constant is irrelevant. In all other regimes, however, the ratio of the initial and final intensities to the saturation intensity also comes into play, making the proportionality constant significant. One way to approach this is to calibrate the saturation intensity in terms of camera counts per unit time. 
 \par In order to calibrate the saturation intensity in camera counts per unit time, we take absorption images of a cloud of $^{40}K$ atoms at three different imaging times, 40us, 100us, and 200us, and at varying probe intensities. We pick a small square in the center of the cloud, where the atomic density is approximately uniform, and average the initial and final intensities of each pixel in the square. Thus, for each image we obtain one $I_0$ and one $I_f$, in units of counts per microsecond, or equavalently one optical density and one $I_0/I_{sat}$. We then do a least squares fit of $\nu_{corr}$, our simulated optical density, to the data. The two fit parameters are the optical depth at the center of the cloud, representing the actual atom number, and the value of $I_{sat}$ in counts per microsecond. As seen in figure \ref{fig:isatCalib}, the model produces a good fit to the experimental data. 
 \begin{figure}
-	\includegraphics[scale=0.57]{figure8}
-\caption{The optical density as a function of probe intensity for three imaging times. The dots represent experimental data and the lines represent the best fit of simulated data. The optimal fit parameters pictured are optical depth of 1.62 and saturation intensity of 29 counts/us. }  
+	\includegraphics{figure8.pdf}
+\caption{The optical density as a function of probe intensity for three imaging times: $t=40\mu \rm{s}$ (blue),  $t=75\mu \rm{s}$ (green),  $t=100\mu \rm{s}$ (red). The dots represent experimental data and the lines represent the best fit of simulated data. The optimal fit parameters pictured are optical depth of 1.62 and saturation intensity of 29 counts/us. }  
 \label{fig:isatCalib}
 \end{figure}
 \subsection{Signal to noise optimization}
