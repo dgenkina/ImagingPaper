@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  24 FEB 2015 18:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  10 MAR 2015 18:32
 entering extended mode
 **//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
 maging*paper/draft1.tex
@@ -152,11 +152,11 @@ LaTeX Font Info:    ... okay on input line 11.
 \makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks17
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -166,22 +166,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Picture1a.png, id=21, 237.0456pt x 323.7696pt>
 File: Picture1a.png Graphic file (type png)
  <use Picture1a.png>
-Package pdftex.def Info: Picture1a.png used on input line 55.
+Package pdftex.def Info: Picture1a.png used on input line 56.
 (pdftex.def)             Requested size: 142.22844pt x 194.26326pt.
 
 <Picture1b.png, id=24, 246.1998pt x 296.7888pt>
 File: Picture1b.png Graphic file (type png)
  <use Picture1b.png>
-Package pdftex.def Info: Picture1b.png used on input line 56.
+Package pdftex.def Info: Picture1b.png used on input line 57.
 (pdftex.def)             Requested size: 147.72101pt x 178.07465pt.
 
 <Picture1c.pdf, id=26, 195.129pt x 202.356pt>
 File: Picture1c.pdf Graphic file (type pdf)
  <use Picture1c.pdf>
-Package pdftex.def Info: Picture1c.pdf used on input line 57.
+Package pdftex.def Info: Picture1c.pdf used on input line 58.
 (pdftex.def)             Requested size: 195.12851pt x 202.3555pt.
 
-Overfull \hbox (43.90016pt too wide) in paragraph at lines 55--58
+Overfull \hbox (43.90016pt too wide) in paragraph at lines 56--59
 [][] [] [] 
  []
 
@@ -192,13 +192,13 @@ pers etc/S-wave scattering &imaging paper/Picture1b.png> <//elwood.nist.gov/684
 pdf>] <figure1.pdf, id=77, 325.215pt x 252.945pt>
 File: figure1.pdf Graphic file (type pdf)
  <use figure1.pdf>
-Package pdftex.def Info: figure1.pdf used on input line 82.
+Package pdftex.def Info: figure1.pdf used on input line 83.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
 
 <figure2.pdf, id=79, 325.215pt x 251.13824pt>
 File: figure2.pdf Graphic file (type pdf)
  <use figure2.pdf>
-Package pdftex.def Info: figure2.pdf used on input line 88.
+Package pdftex.def Info: figure2.pdf used on input line 89.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
  [4] [5 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
 ring &imaging paper/figure1.pdf> <//elwood.nist.gov/684/users/dng5/My Documents
@@ -206,35 +206,35 @@ ring &imaging paper/figure1.pdf> <//elwood.nist.gov/684/users/dng5/My Documents
 <figure3.pdf, id=125, 361.35pt x 216.81pt>
 File: figure3.pdf Graphic file (type pdf)
  <use figure3.pdf>
-Package pdftex.def Info: figure3.pdf used on input line 117.
+Package pdftex.def Info: figure3.pdf used on input line 118.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
 <figure4.pdf, id=126, 325.215pt x 251.13824pt>
 File: figure4.pdf Graphic file (type pdf)
  <use figure4.pdf>
-Package pdftex.def Info: figure4.pdf used on input line 123.
+Package pdftex.def Info: figure4.pdf used on input line 124.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
  [7 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
  &imaging paper/figure3.pdf>] <figure5.pdf, id=157, 325.215pt x 251.13824pt>
 File: figure5.pdf Graphic file (type pdf)
 
 <use figure5.pdf>
-Package pdftex.def Info: figure5.pdf used on input line 142.
+Package pdftex.def Info: figure5.pdf used on input line 143.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
  <figure6a.pdf, id=158, 252.945pt x 252.945pt>
 File: figure6a.pdf Graphic file (type pdf)
 
 <use figure6a.pdf>
-Package pdftex.def Info: figure6a.pdf used on input line 148.
+Package pdftex.def Info: figure6a.pdf used on input line 149.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
  <figure6b.pdf, id=159, 252.945pt x 252.945pt>
 File: figure6b.pdf Graphic file (type pdf)
 
 <use figure6b.pdf>
-Package pdftex.def Info: figure6b.pdf used on input line 149.
+Package pdftex.def Info: figure6b.pdf used on input line 150.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-Overfull \hbox (62.09988pt too wide) in paragraph at lines 148--150
+Overfull \hbox (62.09988pt too wide) in paragraph at lines 149--151
 [][] [] 
  []
 
@@ -243,7 +243,7 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 148--150
 File: figure7.pdf Graphic file (type pdf)
 
 <use figure7.pdf>
-Package pdftex.def Info: figure7.pdf used on input line 155.
+Package pdftex.def Info: figure7.pdf used on input line 156.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
  [9 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
  &imaging paper/figure5.pdf>] [10 <//elwood.nist.gov/684/users/dng5/My Document
@@ -263,59 +263,66 @@ iple pdfs with page group included in a single page
 >] <figure8.pdf, id=282, 325.215pt x 251.13824pt>
 File: figure8.pdf Graphic file (type pdf)
  <use figure8.pdf>
-Package pdftex.def Info: figure8.pdf used on input line 164.
+Package pdftex.def Info: figure8.pdf used on input line 165.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
  [11 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
-g &imaging paper/figure8.pdf>] <figure9a.png, id=301, 578.16pt x 431.4519pt>
-File: figure9a.png Graphic file (type png)
+g &imaging paper/figure8.pdf>] <figure9a.pdf, id=301, 252.945pt x 252.945pt>
+File: figure9a.pdf Graphic file (type pdf)
 
-<use figure9a.png>
-Package pdftex.def Info: figure9a.png used on input line 172.
-(pdftex.def)             Requested size: 260.16959pt x 194.15157pt.
- <figure9b.png, id=302, 578.16pt x 431.4519pt>
-File: figure9b.png Graphic file (type png)
+<use figure9a.pdf>
+Package pdftex.def Info: figure9a.pdf used on input line 173.
+(pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
+ <figure9b.pdf, id=302, 252.945pt x 252.945pt>
+File: figure9b.pdf Graphic file (type pdf)
 
-<use figure9b.png>
-Package pdftex.def Info: figure9b.png used on input line 173.
-(pdftex.def)             Requested size: 260.16959pt x 194.15157pt.
+<use figure9b.pdf>
+Package pdftex.def Info: figure9b.pdf used on input line 174.
+(pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-Overfull \hbox (76.5503pt too wide) in paragraph at lines 172--174
+Overfull \hbox (62.09988pt too wide) in paragraph at lines 173--175
 [][] [] 
  []
 
 [12 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
- &imaging paper/figure9a.png> <//elwood.nist.gov/684/users/dng5/My Documents/pa
-pers etc/S-wave scattering &imaging paper/figure9b.png>]
-<figure10a.png, id=308, 175.3752pt x 234.6366pt>
-File: figure10a.png Graphic file (type png)
- <use figure10a.png>
-Package pdftex.def Info: figure10a.png used on input line 187.
-(pdftex.def)             Requested size: 140.30034pt x 187.70952pt.
+ &imaging paper/figure9a.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/pa
+pers etc/S-wave scattering &imaging paper/figure9b.pdf
 
-<figure10b.png, id=309, 173.448pt x 234.6366pt>
-File: figure10b.png Graphic file (type png)
- <use figure10b.png>
-Package pdftex.def Info: figure10b.png used on input line 188.
-(pdftex.def)             Requested size: 138.75858pt x 187.70952pt.
- [13]
-[14 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
- &imaging paper/figure10a.png> <//elwood.nist.gov/684/users/dng5/My Documents/p
-apers etc/S-wave scattering &imaging paper/figure10b.png>]
-<figure12.png, id=319, 578.16pt x 431.4519pt>
-File: figure12.png Graphic file (type png)
- <use figure12.png>
-Package pdftex.def Info: figure12.png used on input line 213.
-(pdftex.def)             Requested size: 329.55463pt x 245.93015pt.
+pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
+s/papers etc/S-wave scattering &imaging paper/figure9b.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <figure10a.pdf, id=342, 202.356pt x 216.81pt>
+File: figure10a.pdf Graphic file (type pdf)
+ <use figure10a.pdf>
+Package pdftex.def Info: figure10a.pdf used on input line 188.
+(pdftex.def)             Requested size: 202.3555pt x 216.80946pt.
+
+<figure10b.pdf, id=343, 224.037pt x 216.81pt>
+File: figure10b.pdf Graphic file (type pdf)
+ <use figure10b.pdf>
+Package pdftex.def Info: figure10b.pdf used on input line 189.
+(pdftex.def)             Requested size: 224.03644pt x 216.80946pt.
+ [13] [14 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scat
+tering &imaging paper/figure10a.pdf> <//elwood.nist.gov/684/users/dng5/My Docum
+ents/papers etc/S-wave scattering &imaging paper/figure10b.pdf
+
+pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
+s/papers etc/S-wave scattering &imaging paper/figure10b.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] <figure11.pdf, id=624, 325.215pt x 252.945pt>
+File: figure11.pdf Graphic file (type pdf)
+ <use figure11.pdf>
+Package pdftex.def Info: figure11.pdf used on input line 214.
+(pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
+ [15]
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\draft1.bbl" [15]) [16 <//elwood.nist.gov/684/users/dng5/My Documen
-ts/papers etc/S-wave scattering &imaging paper/figure12.png>]
+maging paper\draft1.bbl" [16 <//elwood.nist.gov/684/users/dng5/My Documents/pap
+ers etc/S-wave scattering &imaging paper/figure11.pdf>]) [17]
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
 maging paper\draft1.aux")
 
@@ -323,10 +330,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2165 strings out of 493921
- 27064 string characters out of 3144879
+ 2166 strings out of 493921
+ 27066 string characters out of 3144879
  81682 words of memory out of 3000000
- 5431 multiletter control sequences out of 15000+200000
+ 5432 multiletter control sequences out of 15000+200000
  15059 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,26p,1147b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -351,9 +358,9 @@ type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (16 pages, 1823318 bytes).
+Output written on draft1.pdf (17 pages, 1157609 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 745 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
