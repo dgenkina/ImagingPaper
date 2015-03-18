@@ -5,6 +5,8 @@
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{cite}
+\usepackage{algorithm}
+\usepackage{algorithmic}
 
 
 
@@ -51,75 +53,107 @@ where $a$ is the scattering length, $a_{bg}$ is the scattering length away from 
 \par This paper is in two parts. In the first, we study absorption imaging in the presence of significant Doppler shift and show how we use our results to interpret data. In the second, we describe our\swave scattering experiment and extract a measure of the location of the Feshbach resonance in \K. 
 
 \section{Absorption imaging in the presence of strong recoil induced detuning}
-Absorption imagaing is one of the two most common imaging techniques used in ultracold atomic physics, fluorescence imaging being the other. To obtain an absorption image, one shines an on or near resonant probe beam onto the atomic cloud, and captures the part of the beam that made it through the cloud onto a camera. Then, the atoms are allowed to leave the trap, and the probe light is shined directly at the camera, to calibrate the intensity of light that the atoms saw. The intensity in the second camera image at some point in time is called the initial intensity, $I_{0}(t)$, as it is assumed to be the intensity before interaction with atoms. The intensity in the first image at some point in time is called the final intensity, $I_f(t)$.  
+Every experiment requires a detection scheme. In ultracold atomic experiments, detection relies on imaging laser light that has interacted in some way with the atomic cloud. The most common such imaging method, and the one we use in our experiments, is absorption imaging. Absorption imaging utilizes some excited to ground state transition between two levels of the atom. Such an atomic transition has an energy difference $E_0$, an associated frequency $\omega_0 = E_0/\hbar$, and a natural transition linewidth $\Gamma$. When interacting with a laser light field an atom will scatter photons: if will absorb a photon from the light field and move up to its excited state, and then re-emit the photon in a random direction and decay back to its ground state. The  rate at which this scattering occurs, given a laser intensity $I$, is given by
+\begin{equation}
+\gamma_{sc}= \frac{\Gamma}{2} \frac{I/I_{sat}}{1+(2\delta/\Gamma)^2 +I/I_{sat}}, 
+\label{eq:scatrate}
+\end{equation}
+where $I_{sat}$ is the saturation intensity, the intensity at which the atom is equally likely to be in the ground and excited state, and $\delta$ is the detuning, the difference between the resonant transition frequency $\omega_0$ and the frequency of the laser light $\omega_L$.  
+\par To obtain an absorption image, one shines an on or near resonant probe beam ($\delta\approx0$) onto the atomic cloud. Some of the light is scattered by the atoms, and the part of the beam that made it through the cloud is imaged onto a camera, as seen in Figure \ref{fig:absorptionIntor}a (top). Then, the atoms are allowed to leave the trap, and the probe light is shined directly at the camera to calibrate the intensity of light that the atoms saw (bottom). The intensity in the second camera image is called the initial intensity, $I_{0}$, as it is assumed to be the same as the intensity in the first beam before interaction with atoms. The intensity in the first image is called the final intensity, $I_f$.  
 \begin{figure}
-	\subfigure[]{\includegraphics*[scale=0.6]{Picture1a}}
-	\subfigure[]{\includegraphics*[scale=0.6]{Picture1b}}
+	\subfigure[]{\includegraphics*[scale=0.55]{Picture1a}}
 	\subfigure[]{\includegraphics*{Picture1c.pdf}}
-\caption{Absorption imaging. a. First, a near resonant probe light is shined on the atoms, and the shadow of that light is imaged on the camera. Then, the atoms are allowed to escape their trap and and image of just the probe light is taken. b. An atomic cloud illuminated by a probe light field absorbs photons from the probe and re-emits them in arbitrary directions. This process results in a net velocity of the cloud in the direction of the probe light as well as diffusive spreading in the transverse directions. c. As the probe beam, travels through the atomic cloud, some of its power is absorbed, and the intensity seen by atoms further along the imaging direction $z$ is lowered.  }  
+	\subfigure[]{\includegraphics*[scale=0.55]{Picture1b}}
+\caption{Absorption imaging. a. First, a near resonant probe light is shined on the atoms, and the shadow of that light is imaged on the camera. Then, the atoms are allowed to escape their trap and an image of just the probe light is taken. b.  As the probe beam, travels through the atomic cloud, some of its power is absorbed, and the intensity seen by atoms further along the imaging direction $z$ is lowered.  c. An atomic cloud illuminated by a probe light field absorbs photons from the probe and re-emits them in arbitrary directions. This process results in a net velocity of the cloud in the direction of the probe light as well as diffusive spreading in the transverse directions.  }  
 \label{fig:absorptionIntor}
 \end{figure}
-\par It is convenient to define the optical density, $\nu=-\ln{\frac{\int{I_f(x,y,t)}\mathrm{d}t}{\int{I_0(x,y,t)}\mathrm{d}t}}$. Assuming the intensity seen by the camera during the first and second pulse is constant in time, this reduces to $\nu=-\ln{\frac{I_f(x,y)}{I_0(x,y)}}$. This is an observed quantity, and it is then the job of the experimentalist to relate it to the number of atoms $n = \int \rho\left(x,y,z\right) \,\mathrm{d}z$, where $\rho$ is the 3d atomic distribution, and $z$ is the imaging axis. Another useful quantity is the optical depth, $OD=\sigma_0\rho$, where $\sigma_0$ is the on-resonant scattering cross section. Though in general one needs a theoretical model to relate the optical density $\nu$ to the optical depth  and thus the atom number, it is convenient that in the limit of zero probe intensity, these quantities coincide, $OD_0=\nu$, as will be seen below. We call this $OD_0$, becaue it is the simplest, in a sense "0th order" model for relating the optical density to the optical depth.
-\par The intensity of light from the beam as a function of distance is equal to the power scattered by the atoms. Without taking the atomic recoil velocity into account, and thus assuming both the intensity at every point in the cloud to be constant in time, this is given by \cite{Reinaudi07}
+\par The observed intensity in the two images can be used to infer the number of atoms that the light encountered. To do this, consider what happens to the light as it travels along the imaging axis $z$ through a column of atoms. In general, the atomic density is three dimensional, $\rho(x,y,z)$. For the purposes of this discussion, let us focus on a single pixel of the camera, and thus a single value of $I_0$ and $I_f$ and a single column of atoms, $\rho(z)$. We will not be able to infer the entire atomic distribution, but for each pixel we will be able to deduce the total 2-d atomic density, $n = \int \rho\left(z\right) \,\mathrm{d}z$. As the light travels through a column of atoms, each atom will scatter light according to eq. \ref{eq:scatrate}. Therefore, the atoms further along the imaging axis $z$ will see a reduced light intensity, as seen in Figure \ref{fig:absorptionIntor}b. The amount of light lost to scattering as a function of $z$ is given by
 \begin{equation}
-\frac{dI(z)}{dz}=-\rho\sigma_0\frac{I(z)}{1+I(z)/I_{sat}},
+\frac{dI(z)}{dz}=\hbar\omega_L\rho\gamma_{sc}=-\rho\sigma_0\frac{I(z)}{1+I(z)/I_{sat}},
 \end{equation}
- where  $I_{sat}$ is the saturation intensity. We've suppressed the x and y dependence, or alternatively we've focused on a single pixel.  This equation can be easily integrated over $z$ to obtain
+where $\sigma_0$ is the resonant scattering cross section. We have assumed $\delta=0$. 
+ This equation can be easily integrated over $z$ to obtain  \cite{Reinaudi07}
 \begin{equation} 
-OD_1 =\sigma_0 n = \nu + \frac{I_0-I_f}{I_{sat}},
+\sigma_0 n = -\ln\left(\frac{I_f}{I_0}\right) + \frac{I_0-I_f}{I_{sat}}.
 \label{eq2}
 \end{equation}
- This gives us a model for the optical depth that includes a correction due to saturation intensity. In the limit of far below saturation probe intensity, it reduces to our "0th order" model, $OD_0$. 
-\par Once you include the recoil velocity, the atoms become doppler shifted out of resonance and thus change the amount of proble light that will get absorbed. This detuning varies both with imaging time $t$ and distance along the propagation direction $z$ (Figure \ref{fig:detunedBlobs}). Thus, the intensity lost to the atoms also acquires a time dependence: 
-\begin{equation}
-\frac{dI(t,z)}{dz}=\sigma_0 \rho \frac{I(t,z)}{1+\frac{4}{\Gamma^2}\delta(t,z)^2 +I(t,z)/I_{sat}}, \label{eq3}
+In the limit where the probe intensity is much smaller than the saturation intensity, $I_0\ll I_{sat}$, this becomes simply $-\ln \left(I_f/I_0\right)$. This quantity is called the optical depth, or OD. Since this is the simplest possible model that relates the observed intensities to the column density $n$, we call this quantity $OD_0$. Once the probe intensity becomes comparable to the saturation intensity, the second term in eq.[\ref{eq2}] becomes significant. We can then call this the optical density corrected for high probe intensity, or
+\begin{equation} 
+OD_1 = OD_0 + \frac{I_0-I_f}{I_{sat}}.
+\label{eq:OD1}
 \end{equation}
-where $\Gamma$ is the linewidth of the atomic transition, and $\delta$ is the detuning, given by 
+There are further corrections that this equation does not take into account. In particular, it neglects the atomic recoil momentum and its effect on the laser detuning, which will be discussed below.
+\par When an atom absorbs a photon from the laser light field and gets excited to a higher energy level, by conservation of momentum it must also acquire a velocity in the direction of the light field. This is called the recoil velocity, and it is given by $v_r=\hbar k/m$, where $k$ is the wavenumber of the light field and $m$ is the atomic mass. When the photon is subsequently emitted and the atom returns to its ground state, it is emitted in an arbitrary direction. Thus, the momentum lost due to emitting a photon is on average zero. The variance, however, is not zero, allowing the atoms to acquire some momentum transverse to the laser field. We will ignore this correction, but the effect of this on the atomic cloud is picture in Figure \ref{fig:absorptionIntor}c. 
+\par Once the atoms absorb enough photons, they acquire a substantial velocity in the direction of the light field, and this velocity Doppler shift them from the light field itself. Thus, an atom that absorbs $N$ photons acquires a velocity of $N v_r$ and a detuning of $\delta=k N v_r$ from the probe beam. Therefore, even if the probe beam is initially on resonance with the atomic transition, we cannot neglect the detuning term in the scattering rate as time goes on. Furthermore, this detuning will vary both with imaging time $t$ and with distance along the propagation direction $z$ (Figure \ref{fig:detunedBlobs}). Thus, the intensity lost to the atoms also acquires a time dependence: 
 \begin{equation}
-\delta(t,z)=\frac{v_r}{\hbar c \rho}\int_0^t \frac{dI(z,\tau)}{dz}\,\mathrm{d}\tau, \label{eq4} 
+\frac{dI(t,z)}{dz}=\sigma_0 \rho \frac{I(t,z)}{1+(2\Gamma/\delta(t,z))^2 +I(t,z)/I_{sat}}, \label{eq3}
 \end{equation}
-where  $v_r$ is the recoil velocity. In this case, one can no longer obtain a straightforward relation between the atom number and the intensities in the two absorption images.
+where the detuning $\delta$ is given by 
+\begin{equation}
+\delta(t,z)=\frac{v_r}{\hbar c \rho}\int_0^t \frac{dI(z,\tau)}{dz}\,\mathrm{d}\tau. \label{eq4} 
+\end{equation}
+In this case, one can no longer obtain a straightforward relation between the atom number and the intensities in the two absorption images.
 \begin{figure}
 	\includegraphics*{figure1.pdf}
-\caption{Distribution of generalized detuning $\Delta=\frac{2\delta}{\Gamma}$ accross an atomic cloud of $^{40}K$ for three different imaging times, as obtained by numerical simulation.}  
+\caption{Distribution of generalized detuning $\Delta=\frac{2\delta}{\Gamma}$ across an atomic cloud of $^{40}K$ for three different imaging times, as obtained by numerical simulation.}  
 \label{fig:detunedBlobs}
 \end{figure}
-\par One can consider this equation perturbatively in time and obtain corrections to second order in imaging time, $OD_2$  \cite{LJLthesis}. However, the perturbative treatment breaks down after about a recoil of imaging time (Figure \ref{fig:ODcorrections}). In order to adequately correct for the recoil induced detuning of the atoms, we must simulate the process and obtain numerical predictions for $I_f$ given a certain imaging time, atomic density, and probe intensity. 
+\par One can consider this equation perturbatively in time and obtain corrections to second order in imaging time, $OD_2$  \cite{LJLthesis}. However, the perturbative treatment breaks down shortly after the zeroth order approximation of eq. [\ref{eq2}] (Figure \ref{fig:ODcorrections}). In order to adequately correct for the recoil induced detuning of the atoms, we must simulate the process and obtain numerical predictions for $I_f$ given a certain imaging time, atomic density, and probe intensity. 
 \begin{figure}
 	\includegraphics*{figure2.pdf}
 \caption{Using time dependent $I_f$ values obtained from recoil detuning corrected simulation of on-resonant imaging of $^{40}K$ atoms, this graph shows the optical depths each model would deduce from such images. The true optical depth is given at 1.6.$OD_1$ is the high probe intensity corrected optical depth given by \ref{eq2}. $OD_2$ is the model that includes high probe intensity corrections and imaging time corrections from expanding \ref{eq3},\ref{eq4} to second order in imaging time \cite{LJLthesis}. Note that the value obtained using the second order expansion in time starts to differ significantly from the true value after about 15us. The probe intensity is $0.8\, I_{sat}$. }  
 \label{fig:ODcorrections}
 \end{figure}
-\par In the following, we describe two versions of this simulation. First, we take the simplistic approach that the on-axis distibution of atoms does not change dramatically durning the imaging time and can be treated statically. We test this approach in known limits and then use then check the validity of the static assumption. It turns out that, for realistic input parameters, this assumption is grossly incorrect. So, we take a slightly more sophisticated approach and allow the atoms to move within the cloud during the imaging time. This allows us to simulate the phase space evolution of atoms subjected to probe light. However,   
-in the end we find that numerical differences in predicted OD only vary on the 0.05$\%$ level between the two models. 
+\par In the following, we describe two versions of this simulation. First, we take the simplistic approach that the on-axis distibution of atoms does not change dramatically durning the imaging time and can be treated statically. We test this approach in known limits and then check the validity of the static assumption. It turns out that, for realistic input parameters, this assumption is grossly incorrect. So, we take a slightly more sophisticated approach and allow the atoms to move within the cloud during the imaging time. This allows us to simulate the phase space evolution of atoms subjected to probe light. However,   
+ we find that  while the atomic trajectories are wildly different, the predicted ODs only vary on the 0.5$\%$ level between the two models. 
 
 
 \subsection{Stationary atom model}
-In order to solve eq \ref{eq3},\ref{eq4}, we start with an input 1-d distribution of atom densities $\rho(z)$, usually gaussian in shape. We divide the cloud into spatial bins (the bin size was chosen such that decreasing the bin size further produced less than a 0.001$\%$ difference in the result).   Each bin carries a certain number of atoms. In this approximation, we keep the number of atoms in each bin constant. Then, we input a probe intensity, and propagate the intensity bin by bin according to \ref{eq3}, such that each bin only sees the probe intensity that was not absorbed in the previous bins. Then, we update the average velocity of the atoms in each bin according to \ref{eq4} for our time step size $dt$.  Then, we propagate the probe intensity through each bin again, starting with the same intensity at the first bin but this time taking into account the average recoil induced detuning of each bin in calculating the intensity aborbed. We continue this two-step process until we reach the desired imaging time.
-\par We sum the intensity that made it through the entire cloud at each time step $\int_{t=0}^{t_f} I_f (\tau)\,\mathrm{d}\tau$, the observable that is actually detected on the first absorption image.  From this we can obtain a simulated optical density, $\nu _s = -\ln{\frac{\int I_f (\tau)\,\mathrm{d}\tau}{I_0 t_f}}$. This optical density depends on the initial probe intensity and the intput atom number, or optical depth. Thus, we can take our two absorption images, which give us a value for the optical density as well as $I_0$, and infer what optical depth would have to be put into the simulation to obtain the observed optical density. We call this inferred optical depth $OD_{corr}$, the optical depth corrected for recoil induced detuning effects.  
-\par To check the validity of our simulation, we can take it to certain limits in which the probelm becomes analytically solvabale. In the limit that the probe intensity is much weaker than saturation, $I_0\ll I_{sat}$, the atoms will not absorb enough light to significantly detune from resonance. We can then neglect time dependence and \ref{eq3} reduces to 
+In order to solve eqs. [\ref{eq3}]-[\ref{eq4}], we start with an input 1-d distribution of atom densities $\rho(z)$, usually Gaussian in shape. We divide the cloud into spatial bins (the bin size was chosen such that decreasing the bin size further produced less than a 0.001$\%$ difference in the result).  In this approximation, we keep the number of atoms in each bin constant.  The algorithm used is shown in alg. [\ref{algorithm1}]. We call the optical depth obtained from this algorithm $OD_{corr1}$.
+
+\begin{algorithm}
+\caption{Stationary atom model}
+\label{algorithm1}
+\begin{algorithmic}
+\STATE $I[n=0,t]=I_0$ \COMMENT{$n$ is the bin index, $t$ is the time index, $I$ is in units of $I_{sat}$} 
+\STATE $\delta[n, t=0]=0$ \COMMENT{light initially resonant, $\delta$ in units of $\Gamma/2$}
+\STATE $I_f=0$
+\FOR[loop over time steps]{$t=0$ to $t_f$}
+ \FOR[loop over bins, N is total bin number]{$n=1$ to $N$}
+ \STATE $A=\sigma_0\rho[n] dz$
+ \STATE $B=v_r dt/(\hbar c \rho[n])$ 
+\STATE $I[n,t]=I[n-1,t] - A I[n-1,t]/(1+\delta[n,t-1]^2+I[n-1,t])$  \COMMENT{Eq.\ref{eq3}}
+\STATE $\delta[n,t]=\delta[n,t-1]+B\left(I[n-1,t]-I[n,t]\right)$  \COMMENT{Eq.\ref{eq4}} 
+\ENDFOR 
+\STATE $I_f  \mathrel{+}= I[N,t]dt$
+\ENDFOR
+\STATE $OD_{corr1}=-\ln{(I_f/I_0t_f)}$
+\end{algorithmic}
+\end{algorithm}
+
+\par To check the validity of our simulation, we can take it to certain limits in which the problem becomes analytically solvable. In the limit that the probe intensity is much weaker than saturation, $I_0\ll I_{sat}$, the atoms will not absorb enough light to significantly detune from resonance. We can then neglect time dependence and eq.[\ref{eq3}] reduces to 
 \begin{equation}
 \frac{dI(z)}{dz}=-\rho\sigma_0 I(z),
 \end{equation}
 from which we recover the simple
 \begin{equation}
-\sigma_0 n = OD_0 = \nu. \label{eq6}
+\sigma_0 n = OD_0 = -\ln I_0/I_f. \label{eq6}
 \end{equation}
 In the limit that the probe intensity is much stronger than saturation, $I_0\gg I_sat$, even far detuned atoms will absorb light at their maximum, allowing us to again neglect the time dependence and reduce \ref{eq3} to 
 \begin{equation}
 \frac{dI(z)}{dz}=-\rho\sigma_0 I_{sat}, 
 \end{equation}
-which integrates out to 
+which integrates to 
 \begin{equation}
 \sigma_0 n = \frac{I_0 - I_f}{I_{sat}}. \label{eq8}
 \end{equation}
-We recognize \ref{eq6} and \ref{eq8} as the two terms in the expression for $OD_1$, \ref{eq2}. Thus, in both limits $OD_{corr}$ should coincide with $OD_1$. Or equivalently, if the optical depth is an input parameter, in those limits both \ref{eq2} and our simulation should produce the same prediction for optical density. Indeed, they coincide as seen in figure \ref{fig:IsatLimits}.
+We recognize the right hand sides of eq.[\ref{eq6}] and eq.[\ref{eq8}] as the two terms in the expression for $OD_1$, eq.[\ref{eq2}]. Thus, in both limits $OD_{corr1}$ should coincide with the value of $OD_0$ obtained by fixing an input atom number $n$ in eq.[\ref{eq2}]. Indeed, they coincide as seen in Figure \ref{fig:IsatLimits}.
 \begin{figure}
 	\includegraphics{figure3.pdf}
-\caption{Optical densities as a function of probe intensity as predicted by the simulation (blue dots) and by eq.[\ref{eq2}] (green lines), for three different imaging times. The predictions agree in both the high and low intensity limits, and differ for probe intensitites comparable to the saturation intensity. The difference is enhanced with increased imaging time.}  
+\caption{Optical density as a function of probe intensity as predicted by the simulation (blue dots) and by eq.[\ref{eq2}] (green lines), for three different imaging times. The predictions agree in both the high and low intensity limits, and differ for probe intensities comparable to the saturation intensity. The difference is enhanced with increased imaging time.}  
 \label{fig:IsatLimits}
 \end{figure}
-\par Encouraged by the reasonable behavior of our simulation, we can now use it to see if the stationary atom assumption is self consistent, ie if the distance travelled by the atoms in one bin during the imaging time is less than the bin size. However, as can be seen from figure \ref{fig:atomTravel}, it turns out that not only do the atoms travel more than the bin size, but they also travel more than the size of the whole cloud, and the back of the cloud travels less than the beginning for long enough imaging times. Thus, the atomic distribution as a function of position changes dramatically during the imaging time, and our stationary assumption is completely invalid. 
+\par We can use the results of this simulation to check if the stationary atom assumption is self consistent, ie if the distance traveled by the atoms in one bin during the imaging time is less than the bin size. However, as can be seen from Figure \ref{fig:atomTravel}, it turns out that not only do the atoms travel more than the bin size, but they also travel more than the size of the whole cloud, and the back of the cloud even overtakes the front for long enough imaging times. Thus, the atomic distribution as a function of position changes dramatically during the imaging time, and our stationary assumption is completely invalid. 
 \begin{figure}
 	\includegraphics{figure4.pdf}
 \caption{Position of atoms as a function of imaging time for atoms in the first, middle, and last bins of the simulation. The probe intensity here is $1.2 I_{sat}$, and the optical depth is 1.6.}  
@@ -127,54 +161,85 @@ We recognize \ref{eq6} and \ref{eq8} as the two terms in the expression for $OD_
 \end{figure}
 
 \subsection{Traveling atom model}
-To account for the changing atomic distribution during the imaging pulse, we shift our framework slightly from spatial bins of equal size with varying atoms number to superatoms. That is, we divide the initial atomic distribution into clumps of a set number of atoms, called superatoms, with initial positions that reflect the atomic distribution. The simulation then proceeds as before, propagating the probe light through one superatom at a time. But now, after the probe has been propagated through and the velocities of the superatoms are updated, the positions of the superatoms are advanced accordingly before the next time step is taken. Thus, we can simulate an evolving atomic distribution and track the resultant detunings. 
-\par First, we should check the velocity behavior of our superatoms against calculable limits. One such limit is that of a single supeatom. In this case, the intensity seen by the superatom is constant at the full probe intensity, and the only time dependance in the problem is in the velocity, and thus detuning, of the superatom. \ref{eq4} can then be re-written as
+To account for the changing atomic distribution during the imaging pulse, we shift our framework slightly from spatial bins of equal size with varying atoms number to superatoms. These superatoms were spatially distributed to match a typical experimental distribution, each describing the aggregate behavior of $N_{sa}$ atoms. The amended algorithm is shown in alg.[\ref{algorithm2}]. 
+\begin{algorithm}
+\caption{Travelling atom model}
+\label{algorithm2}
+\begin{algorithmic}
+\STATE $S[n]=\mathrm{Superatom}(z=z_0[n], \delta=0)$ \COMMENT {initialize array of superatom class instances, with position and detuning attributes} 
+\STATE $I[n=0,t]=I_0$ \COMMENT{ $t$ is the time index, $I$ is in units of $I_{sat}$} 
+\STATE $I_f=0$
+\FOR[loop over time steps]{$t=0$ to $t_f$}
+ \FOR[loop over superatoms]{$n=1$ to $N$}
+ \STATE $A=\sigma_0 N_{sa} dz$
+ \STATE $B=v_r dt/(\hbar c  N_{sa})$ 
+\STATE $I[n,t]=I[n-1,t] - A I[n-1,t]/(1+S[n].\delta^2+I[n-1,t])$  \COMMENT{Eq.\ref{eq3}}
+\STATE $S[n].\delta\mathrel{+}=B\left(I[n-1,t]-I[n,t]\right)$  \COMMENT{Eq.\ref{eq4}, detuning in units of $\Gamma/2$} 
+\STATE $S[n].z\mathrel{+}=dt\Gamma\delta/2k$ \COMMENT{$k$ is the wavenumber, $\Gamma\delta/2k$ is the velocity at $\delta$ detuning}
+\ENDFOR 
+\STATE $S[n]$=sort($S[n]$, key =$\mathrm{ Superatom}.z$) \COMMENT{sort superatoms by current position}
+\STATE $I_f  \mathrel{+}= I[N,t]dt$
+\ENDFOR
+\STATE $OD_{corr2}=-\ln{(I_f/I_0t_f)}$
+\end{algorithmic}
+\end{algorithm}
+\par First, we check the velocity behavior in this model against known limits. One such limit is that of a single supeatom. In this case, there is no attenuation, and the intensity seen by the superatom is constant at $I_0$. The only thing that evolves in time is the detuning of the single superatom. We can differentiate both sides of eq. [\ref{eq4}] to obtain
 \begin{equation}
-\frac{d\delta\left(t\right)}{dt}=\frac{v_r}{\hbar c \rho}\frac{dI}{dz}\left(t\right)=\frac{v_r \sigma_0}{\hbar c}\frac{I_0}{1+\frac{4}{\Gamma^2}\delta(t)^2 +I_0/I_{sat}},
+\frac{d\delta\left(t\right)}{dt}=\frac{v_r}{\hbar c \rho}\frac{dI}{dz},
 \label{eq9}
 \end{equation} 
-or in dimensionless form,
+and eq.[\ref{eq3}] simplifies to
+\begin{equation}
+\frac{dI}{dt}=\frac{v_r \sigma_0}{\hbar c}\frac{I_0}{1+(2\delta(t)/\Gamma)^2 +I_0/I_{sat}}.
+\label{oneAtom}
+\end{equation}
+Combining eq.[\ref{eq9}] and eq.[\ref{oneAtom}], and converting to a dimensionless form, we obtain
 \begin{equation}
 \frac{d\Delta(t)}{dt}= k v_r \frac{\tilde{I}}{1+\Delta^2+\tilde{I}},
 \label{eq10}
 \end{equation}
-where $\Delta = 2\delta/\Gamma$, $\tilde{I} = I_0/I_{sat}$ and $k$ is the photonic wavevector. \ref{eq10} can be integrated and solved exactly with one real root. We can compare that result to our simulation, and it agrees as seen in figure \ref{fig:oneAtomVel}.
+where $\Delta = 2\delta/\Gamma$, $\tilde{I} = I_0/I_{sat}$ and $k$ is the photonic wavevector. Eq.[\ref{eq10}] can be solved numerically, and is in good agreement with our simulation, as seen in Figure \ref{fig:oneAtomVel}.
 \begin{figure}
 	\includegraphics{figure5.pdf}
 \caption{The velocity of a single superatom as a function of probe intensity for various imaging times. Simulation data (dots) and analytical solutions (lines) are in good agreement.}  
 \label{fig:oneAtomVel}
 \end{figure}
-\par We are now in a position to study the time dependance of the cloud evolution. This can be visualized as a phase space evolution of superatoms, as seen in figure \ref{fig:phaseSpace}. We see that the cloud shape is actually strongly distorted in the imaging time. 
+\par We use this model to study the time evolution of the cloud shape during imaging. This can be visualized as the phase space evolution of superatoms, as seen in Figure \ref{fig:phaseSpace}. We see that the cloud shape is actually strongly distorted during the imaging time. 
 \begin{figure}
 	\subfigure[]{\includegraphics{figure6a.pdf}}
 	\subfigure[]{\includegraphics{figure6b.pdf}}
 \caption{Phase space evolution of an atomic cloud exposed to probe light of $1.2 I_{sat}$. We have used $\Delta \rm{v}=\rm{v} -\left< \rm{v}(t) \right>$  and $\Delta \rm{z}=\rm{z}-\left< \rm{z}(t) \right>$, subtracting out the center of mass position and velocity of the cloud. The optical depth is 1.6, and the initial cloud is a gaussian with width a.10$\mu m$ and b.1$\mu m$.}  
 \label{fig:phaseSpace}
 \end{figure}
-\par Having performed both the stationary and traveling atom simulations, we can compare the optical densities predicted by each, which we call $\nu_{corr1}$ and $\nu_{corr2}$ respectively. We find that, depite the significant changes in atomic distribution during the imaging time, the predicted optical densities are so slightly changed by including this effect that it is practically undetectable. In fact, the difference $\left|\nu_{corr1}-\nu_{corr2}\right|/\nu_{corr1} \le 0.05$. Thus, for the purposes of deducing the optical density from experimental optical depths, simply using a stationary model is sufficient. Furthermore, the actual atomic distribution $\rho(z)$ is largely irrelevant, and the only observable is the total atom number $n=\int\rho(z)\mathrm{d}z$. 
+\par We compare the optical depths predicted by each of the two models, $OD_{corr1}$ and $OD_{corr2}$. We find that, depite the significant changes in atomic distribution during the imaging time, the predicted optical densities are so slightly changed by including this effect that it is practically undetectable, as seen in Figure \ref{fig:atomTravel}. In fact, the difference $\left|OD_{corr1}-OD_{corr2}\right|/OD_{corr1} \le 0.005$. Thus, for the purposes of deducing the atom density from experimental optical depths, simply using a stationary model is sufficient. Furthermore, the actual atomic distribution $\rho(z)$ is largely irrelevant, and the only observable is the 2-D atomic density $n=\int\rho(z)\mathrm{d}z$. 
 \begin{figure}
 	\includegraphics{figure7.pdf}
-\caption{Predictions for optical density as a function of probe intensity for an imaging time $t=50$\us. Note that the two versions of simulated optical density, $\nu_{corr1}$ and $\nu_{corr2}$ are virtually indistinguishable. }  
+\caption{Predictions for optical depth as a function of probe intensity for an imaging time $t=100$\us. Note that the two versions of simulated optical depth, $OD_{corr1}$ (green line) and $OD_{corr2}$ (green dots) are virtually indistinguishable. }  
 \label{fig:atomTravel}
 \end{figure}
-\subsection{Calibration of saturation intensity}
-Now we come to the question of how to interpret the actual ouput of an imaging camera. Each camera pixel outputs an integer number of "counts", proportional to the total energy it absobed during a pulse. The precise proportionality constant of these counts to the intensity as seen by the atoms depends on many factors, such as the quantum efficiency of the camera, the photoelectric conversion factor of the camera, and the polarization of the probe light. 
-\par The most accurate way to determine this factor is through a direct experiment. In the limit where the system is adequately described by \ref{eq6}, only the ratio of the initial and final intensities matters, and thus this proportionality constant is irrelevant. In all other regimes, however, the ratio of the initial and final intensities to the saturation intensity also comes into play, making the proportionality constant significant. One way to approach this is to calibrate the saturation intensity in terms of camera counts per unit time. 
-\par In order to calibrate the saturation intensity in camera counts per unit time, we take absorption images of a cloud of $^{40}K$ atoms at three different imaging times, 40us, 100us, and 200us, and at varying probe intensities. We pick a small square in the center of the cloud, where the atomic density is approximately uniform, and average the initial and final intensities of each pixel in the square. Thus, for each image we obtain one $I_0$ and one $I_f$, in units of counts per microsecond, or equavalently one optical density and one $I_0/I_{sat}$. We then do a least squares fit of $\nu_{corr}$, our simulated optical density, to the data. The two fit parameters are the optical depth at the center of the cloud, representing the actual atom number, and the value of $I_{sat}$ in counts per microsecond. As seen in figure \ref{fig:isatCalib}, the model produces a good fit to the experimental data. 
-\begin{figure}
-	\includegraphics{figure8.pdf}
-\caption{The optical density as a function of probe intensity for three imaging times: $t=40$\us{} (blue),  $t=75$\us{} (green),  $t=100$\us{} (red). The dots represent experimental data and the lines represent the best fit of simulated data. The optimal fit parameters pictured are optical depth of 1.62 and saturation intensity of 29 counts/\us{}. }  
-\label{fig:isatCalib}
-\end{figure}
+
 \subsection{Signal to noise optimization}
-Now that we have the ability to interpret absorption images at larger imaging times, we can choose an imaging time based on optimal signal to noise ratio. Here, we consider only the photon shot noise that results in camera count noise, with the uncertainty proportional to $\sqrt{N_p}$, where $N_p$ is the photon number. We then propagate this uncertainty through our correction scheme to deduce the final uncertainty in the calculated optical depth. 
-\par As seen in figure \ref{fig:SNR}, around 40\us{} for reasonable parameters the uncertainty levels out and there are no longer appreciable benefits by extending the imaging time. The advantage of going to a 40\us{} as opposed to 10\us{} where the uncorrected model is appropriate is about a factor of  1.5 increase in signal to noise ratio. 
+This simulation can be used to interpret experimentally obtained initial and final intensities. For a given imaging time, we create a look-up table of predicted optical depth as a function of probe intensity and atomic density. We can then find the observed optical depth on this table, with the given probe intensity, and infer the atomic density. The uncertainty in the measured intensities can be propagated through this procedure, and we can establish optimal imaging parameters to maximize the signal to noise ratio of this detection scheme. 
+\par Here, the only source of measurement uncertainty we consider is the photon shot noise, which is Poisson distributed and has a standard deviation proportional to $\sqrt{N_p}$, where $N_p$ is the photon number. We then propagate this uncertainty through our correction scheme to get the uncertainty in our deduced value of $\sigma_0 n$. We define the signal to noise ratio (SNR) as $\sigma_0 n/\delta_{\sigma_0 n}$, where $ \delta_{\sigma_0 n}$ is the propagated measurement uncertainty.
+\par As seen in figure \ref{fig:SNR}, after about 40\us{} extending the imaging time no longer yields appreciable improvement in signal to noise ratio. The advantage of imaging for 40\us{} as opposed to 10\us{} where the uncorrected model is appropriate is about a factor of  1.5 increase in SNR. We performed the experiments described in the second section at 40\us{} imaging time.
 \begin{figure}
 	\subfigure[]{\includegraphics{figure9a.pdf}}
 	\subfigure[]{\includegraphics{figure9b.pdf}}
-\caption{Signal to noise ratio [SNR] for three different optical depths after correcting for recoil induced detuning. a. SNR as a function of probe intensity $I_0/I_{sat}=5.0$ and b. SNR as a function of probe intensity for an imaging time of 50\us{}.}  
+\caption{Signal to noise ratio (SNR) for three different optical depths after correcting for recoil induced detuning. a. SNR as a function of probe intensity $I_0/I_{sat}=5.0$ and b. SNR as a function of probe intensity for an imaging time of 50\us{}.}  
 \label{fig:SNR}
 \end{figure}
+
+\subsection{Calibration of saturation intensity}
+A key component of good detection is a well calibrated measurement apparatus. In this case, the measurement apparatus is a CCD camera used to take the absorption images. We used Point Grey's Flea3 camera.  Each camera pixel  converts tho photons it is exposed to, with some efficiency, into photoelectrons, and then to a digital signal, and integer we will call the number of 'counts'. The number of photons that hit a pixel and the number of 'counts' it outputs are directly proportional. However, the proportionality constant depends on many factors, such as the quantum efficiency of the camera, the photoelectric conversion factor of the camera, and the polarization of the probe light. 
+\par The most accurate way to determine this factor is through a direct experiment. In the limit where the system is adequately described by eq.[\ref{eq6}], only the ratio of the initial and final intensities matters, and thus this proportionality constant is irrelevant. In all other regimes, however, the ratio of the initial and final intensities to the saturation intensity also comes into play, making the proportionality constant significant. One way to approach this calibration is to determine the value of the saturation intensity in 'counts' per unit time. 
+\par In order to calibrate the saturation intensity in camera counts per unit time, we take absorption images of a cloud of $^{40}K$ atoms at three different imaging times, 40us, 100us, and 200us, at varying probe intensities. We pick a small square in the center of the cloud, where the atomic density is approximately uniform, and average the initial and final intensities of each pixel in the square. Thus, for each image we obtain one $I_0$ and one $I_f$, in counts per microsecond. We then do a least squares fit of $OD_{corr}$, our simulated optical depth, to the data. The two fit parameters are the atomic density $n$ at the center of the cloud and the value of $I_{sat}$ in counts per microsecond. As seen in Figure \ref{fig:isatCalib}, the model produces a good fit to the experimental data, and we obtain a calibration of the saturation intensity for our experiment. 
+\begin{figure}
+	\includegraphics{figure8.pdf}
+\caption{The optical depth as a function of probe intensity for three imaging times: $t=40$\us{} (blue),  $t=75$\us{} (green),  $t=100$\us{} (red). The dots represent experimental data and the lines represent the best fit of simulated data. The optimal fit parameters pictured are a $\sigma_0 n$ of 1.62 and saturation intensity of 29 counts/\us{}. }  
+\label{fig:isatCalib}
+\end{figure}
+
+
 \section{S-wave scattering experiment}
 In this section we describe our experiment with scattering two counter-propagating clouds of $^{40}K$ atoms and observe the resulting s-wave halo of scattered atoms. We vary the magnetic field around the Feshbach resonance during this experiment, and from the change in scattering deduce a location of the magnetic fields resonance of 202.47 Gauss and a width of 8.98 Gauss.
 \subsection{Experimental procedure}
@@ -190,8 +255,8 @@ We first correct each image for recoil induced detuning using the simulation des
 \caption{An example of our absorption image after 6.784ms time of flight. The 1-D lattice is along the horizontal direction at the center of our images. The two large clouds on the left and right are the atoms in the $\pm 2k_r$ momentum orders that passed through each other unscattered. The smaller cloud in the center is the atoms that remained in the lowest band of the lattice after pulsing, and thus obtained no momentum. The thin spread of atoms around these clouds is the atoms that underwent scattering.  a. Raw optical density b. Optical density of the same image after correcting for recoil induced detuning by comparing to simulation}  
 \label{fig:SampleCorrection}
 \end{figure}
-\par To improve the signal and compensate for our shot to shot number fluctuations, we take 15 equivalent images for each data point and, after correcting, add them together. We then perform a standard inverse Abel transform to extract the radial atom number dependence from the two dimensional projection we see in our images. The inverse Abel transform assumes a cilyndrical symmetry, which is present in our case, with the axis of symmetry defined by the 1-D lattice. 
-\par We then extract the number of atoms that went through a single scattering event $N_{scat}$, as a fraction of the total atom number $N_{tot}$, for each bias magnetic field value. We unscattered number by counting the number of atoms in the two unscattered clouds. We obtain the number of atoms that underwent single scattering by counting the number of atoms outside the Fermi radius of the unscattered clouds, but inside the arc created by rotating the Fermi radius around the original center of the cloud. This method excludes atoms that underwent multiple scatterings, as those atoms are not bound by momentum concervation to have travelled the same distance from the center as the unscattered clouds in time of flight. The total atom number is the sum of those two.
+\par To improve the signal and compensate for our shot to shot number fluctuations, we take 15 equivalent images for each data point and, after correcting, add them together. We then perform a standard inverse Abel transform to extract the radial atom number dependence from the two dimensional projection we see in our images. The inverse Abel transform assumes a cylindrical symmetry, which is present in our case, with the axis of symmetry defined by the 1-D lattice. 
+\par We then extract the number of atoms that went through a single scattering event $N_{scat}$, as a fraction of the total atom number $N_{tot}$, for each bias magnetic field value. We unscattered number by counting the number of atoms in the two unscattered clouds. We obtain the number of atoms that underwent single scattering by counting the number of atoms outside the Fermi radius of the unscattered clouds, but inside the arc created by rotating the Fermi radius around the original center of the cloud. This method excludes atoms that underwent multiple scatterings, as those atoms are not bound by momentum conservation to have traveled the same distance from the center as the unscattered clouds in time of flight. The total atom number is the sum of those two.
 \par We then use our data to deduce the resonant field value, the width of the resonance, etc. To do this, we must fit our data to a model. From \cite{Chin10}, we have the expression:
 \begin{equation}
 a(B)=a_{bg}\left(1-\frac{\Delta}{B-B_0}\right),
@@ -201,7 +266,7 @@ where $a$ is the scattering length, $a_{bg}$ is the scattering lenth away from t
 \begin{equation}
 \frac{N_{scat}}{N_{tot}^2}=\tilde{a}_{bg}^2\left(1-\frac{\Delta}{B-B_0}\right)^2.
 \end{equation}
-\par Unfortunately, we cannot fit to this equation directly - camera readout noise is scewed towards the positive, creating an asymetry in detected shot noise for very low and zero atom number pixels. Thus, there is a background number of what looks like scattered atoms in our treatment, giving rise to a background offset $o$ in our data. Thus, the equation we actually fit to is
+\par Unfortunately, we cannot fit to this equation directly - camera readout noise is skewed towards the positive, creating an asymmetry in detected shot noise for very low and zero atom number pixels. Thus, there is a background number of what looks like scattered atoms in our treatment, giving rise to a background offset $o$ in our data. Thus, the equation we actually fit to is
 \begin{equation}
 \frac{N_{scat}}{N_{tot}^2}=\tilde{a}_{bg}^2\left(1-\frac{\Delta}{B-B_0}\right)^2 + o,
 \label{eq13}
@@ -212,12 +277,12 @@ Our final data is presented in figure \ref{fig:fittedFractions}. The red line is
 The accepted values for the $^{40}K$ s-wave Feshbach resonance for the  $\ket{9/2,-9/2}$ and $\ket{9/2,-7/2}$ states are $B_0=202.1\pm0.07$ and $\Delta=7.8\pm0.6$. 
 \begin{figure}
 	\includegraphics{figure11.pdf}
-\caption{Normalized scattered population plotted versus bias field B. Green dots represent data taken coming from below the resonance, and blue dots represent the data taken coming from above the resonance. Red is the line of best fit, where data coming from above the resonance was used above the resonance and data coming from below the resonance was used below the resonance to create the fit. The regime where the scattering length is large enough for the atoms to behave hydrodynamically is shaded in grey. Data points in that region were not used in the fit, as there the assumption $\sigma\rho\ll1$, where $\rho$ is the atom number per unit area, is no longer valid. Values for the resonant field $B_0$ from literature and as found in this work are indicated.    }  
+\caption{Normalized scattered population plotted versus bias field B. Green dots represent data taken coming from below the resonance, and blue dots represent the data taken coming from above the resonance. Red is the line of best fit, where data coming from above the resonance was used above the resonance and data coming from below the resonance was used below the resonance to create the fit. The regime where the scattering length is large enough for the atoms to behave hydrodynamically is shaded in gray. Data points in that region were not used in the fit, as there the assumption $\sigma\rho\ll1$, where $\rho$ is the atom number per unit area, is no longer valid. Values for the resonant field $B_0$ from literature and as found in this work are indicated.    }  
 \label{fig:fittedFractions}
 \end{figure}
 \section{Conclusion}
-We studied the effects of recoil-induced detuning effects on absorption images and found an optimal imaging time of ~40\us{} for $^{40}K$ atoms for noise minimization after corrections. We use these results to observe s-wave scattering halos of the Fermi gas around the Feshbach resonance and directly verify the resonance location and width. Our analysis can be used in any absorption imaging applications where signal to noise minimization is critical. Experimental techniques devoloped for our s-wave scattering expeiment can be readily extended to a Raman-coupled single component gas version, in which we hope to detect synthetic p-wave interactions. 
-\section*{Acknowledgements}
+We studied the effects of recoil-induced detuning effects on absorption images and found an optimal imaging time of ~40\us{} for $^{40}K$ atoms for noise minimization after corrections. We use these results to observe s-wave scattering halos of the Fermi gas around the Feshbach resonance and directly verify the resonance location and width. Our analysis can be used in any absorption imaging applications where signal to noise minimization is critical. Experimental techniques developed for our s-wave scattering experiment can be readily extended to a Raman-coupled single component gas version, in which we hope to detect synthetic p-wave interactions. 
+\section*{Acknowledgments}
 We thank Marcell Gall for helpful discussions. This work was partially supported by the ARO’s Atomtronics MURI, by the
 AFOSR’s Quantum Matter MURI, NIST, and the NSF through the PFC at the JQI. B.K.S. is
 a NIST-NRC Postdoctoral Research Associate. L.M.A. was supported by the NSF GRFP.
