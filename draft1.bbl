@@ -1,14 +1,26 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Chin10}
 Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
 \newblock Feshbach resonances in ultracold gases.
 \newblock {\em Rev. Mod. Phys.}, 82:1225--1286, Apr 2010.
 
+\bibitem{Gao11}
+Bo~Gao.
+\newblock Analytic description of atomic interaction at ultracold temperatures.
+  ii. scattering around a magnetic feshbach resonance.
+\newblock {\em Phys. Rev. A}, 84:022706, Aug 2011.
+
 \bibitem{LJLthesis}
 Lindsey~J. LeBlanc.
 \newblock {\em Exploring many-body physics with ultracold atoms}.
 \newblock PhD thesis, University of Toronto, 2011.
+
+\bibitem{Lysebo09}
+M.~Lysebo and L.~Veseth.
+\newblock \textit{Ab initio} calculation of feshbach resonances in cold atomic
+  collisions: $s$- and $p$-wave feshbach resonances in $^{6}\rm{Li}_{2}$.
+\newblock {\em Phys. Rev. A}, 79:062704, Jun 2009.
 
 \bibitem{Monroe93}
 C.~Monroe, E.~Cornell, C.~Sackett, C.~Myatt, and C.~Wieman.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  25 MAR 2015 16:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.20)  20 APR 2015 17:19
 entering extended mode
 **//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
 maging*paper/draft1.tex
@@ -9,13 +9,13 @@ LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
 
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
 maging paper\iopart.cls"
@@ -43,26 +43,26 @@ File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
 maging paper\iopams.sty"
 Package: iopams 1997/02/13 v1.0
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+Package: amssymb 2009/06/22 v3.00
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\braket\braket.sty")
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\braket\braket.sty)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -85,17 +85,17 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
@@ -111,16 +111,16 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
@@ -138,7 +138,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks18
 \c@algorithm=\count94
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count95
 \c@ALC@line=\count96
@@ -165,7 +165,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen109
@@ -181,15 +181,15 @@ LaTeX Font Info:    ... okay on input line 13.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/dng5/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 <Picture1a.png, id=21, 237.0456pt x 323.7696pt>
 File: Picture1a.png Graphic file (type png)
  <use Picture1a.png>
@@ -280,26 +280,17 @@ Package pdftex.def Info: figure7.pdf used on input line 217.
 g &imaging paper/figure5.pdf>] [11 <//elwood.nist.gov/684/users/dng5/My Documen
 ts/papers etc/S-wave scattering &imaging paper/figure6a.pdf> <//elwood.nist.gov
 /684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figure
-6b.pdf
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure6b.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
-> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering &
-imaging paper/figure7.pdf
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure7.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
->] <figure9a.pdf, id=282, 252.945pt x 252.945pt>
+6b.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
+ring &imaging paper/figure7.pdf>] <figure9a.pdf, id=282, 252.945pt x 252.945pt>
 File: figure9a.pdf Graphic file (type pdf)
- <use figure9a.pdf>
+
+<use figure9a.pdf>
 Package pdftex.def Info: figure9a.pdf used on input line 227.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
-
-<figure9b.pdf, id=283, 252.945pt x 252.945pt>
+ <figure9b.pdf, id=283, 252.945pt x 252.945pt>
 File: figure9b.pdf Graphic file (type pdf)
- <use figure9b.pdf>
+
+<use figure9b.pdf>
 Package pdftex.def Info: figure9b.pdf used on input line 228.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
@@ -309,12 +300,8 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 227--229
 
 [12 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
  &imaging paper/figure9a.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/pa
-pers etc/S-wave scattering &imaging paper/figure9b.pdf
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure9b.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
->] <figure8.pdf, id=324, 325.215pt x 252.945pt>
+pers etc/S-wave scattering &imaging paper/figure9b.pdf>]
+<figure8.pdf, id=324, 325.215pt x 252.945pt>
 File: figure8.pdf Graphic file (type pdf)
  <use figure8.pdf>
 Package pdftex.def Info: figure8.pdf used on input line 238.
@@ -352,19 +339,11 @@ Overfull \hbox (13.92pt too wide) in paragraph at lines 263--265
 
 [15] [16 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatt
 ering &imaging paper/figure10a.pdf> <//elwood.nist.gov/684/users/dng5/My Docume
-nts/papers etc/S-wave scattering &imaging paper/figure10b.pdf
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure10b.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->] [17 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
-ing &imaging paper/Picture12.pdf> <//elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure12b.pdf
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure12b.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->] <figure11.pdf, id=653, 325.215pt x 252.945pt>
+nts/papers etc/S-wave scattering &imaging paper/figure10b.pdf>] [17 <//elwood.n
+ist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper
+/Picture12.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wav
+e scattering &imaging paper/figure12b.pdf>]
+<figure11.pdf, id=653, 325.215pt x 252.945pt>
 File: figure11.pdf Graphic file (type pdf)
  <use figure11.pdf>
 Package pdftex.def Info: figure11.pdf used on input line 281.
@@ -387,13 +366,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2483 strings out of 493921
- 31142 string characters out of 3144879
- 86167 words of memory out of 3000000
- 5730 multiletter control sequences out of 15000+200000
+ 2470 strings out of 494045
+ 31092 string characters out of 3145972
+ 85747 words of memory out of 3000000
+ 5716 multiletter control sequences out of 15000+200000
  15059 words of font info for 57 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 27i,8n,26p,1707b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 715 hyphenation exceptions out of 8191
+ 27i,8n,24p,1707b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
@@ -414,7 +393,7 @@ pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (19 pages, 1319119 bytes).
+Output written on draft1.pdf (19 pages, 1320767 bytes).
 PDF statistics:
  769 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
