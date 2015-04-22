@@ -1,28 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.20)  20 APR 2015 17:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.18)  21 APR 2015 20:23
 entering extended mode
-**//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
-maging*paper/draft1.tex
-
-("//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering &i
-maging paper/draft1.tex"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**draft1.tex
+(./draft1.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\iopart.cls"
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(./iopart.cls
 Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
-
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\iopart12.clo"
+(./iopart12.clo
 File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
 )
 \c@jnl=\count79
@@ -38,364 +24,387 @@ File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
 \indentedwidth=\skip43
 \mathindent=\dimen102
 \c@eqnval=\count87
-)
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\iopams.sty"
+) (./iopams.sty
 Package: iopams 1997/02/13 v1.0
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2009/06/22 v3.00
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
-))
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\braket\braket.sty)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+)) (./braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip44
-\subfigcapskip=\skip45
-\subfigcaptopadj=\dimen107
-\subfigbottomskip=\skip46
-\subfigcapmargin=\dimen108
-\subfiglabelskip=\skip47
+(./subfigure.sty
 \c@subfigure=\count89
-\c@lofdepth=\count90
-\c@subtable=\count91
-\c@lotdepth=\count92
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
-\subfig@top=\skip48
-\subfig@bottom=\skip49
-)
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+) (./cite.sty
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+) (./algorithm.sty
+Package: algorithm 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count93
-\float@exts=\toks16
+Document Style `algorithm' - floating environment
+(./float.sty
+Style-Option: `float' 1.1c 18 Dec 92 (AL)
+\float@type=\count90
 \float@box=\box26
-\@float@everytoks=\toks17
 \@floatcapt=\box27
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks18
-\c@algorithm=\count94
+\c@algorithm=\count91
 )
-(C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.sty
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count95
-\c@ALC@line=\count96
-\c@ALC@rem=\count97
-\c@ALC@depth=\count98
-\ALC@tlm=\skip50
-\algorithmicindent=\skip51
+(./algorithmic.sty
+Package: algorithmic 2005/07/05
+
+Document Style `algorithmic' - environment
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen107
+\calc@Bdimen=\dimen108
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count94
+\calc@Cskip=\skip46
 )
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\draft1.aux"
+\c@ALC@line=\count95
+\c@ALC@rem=\count96
+\c@ALC@depth=\count97
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+) (./draft1.aux
 
 LaTeX Warning: Label `fig:atomTravel' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
- (C:\Users\dng5\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+\openout1 = `draft1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
+\scratchcounter=\count98
 \scratchdimen=\dimen109
 \scratchbox=\box28
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count102
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count101
 \MPscratchDim=\dimen110
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks17
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/dng5/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<Picture1a.png, id=21, 237.0456pt x 323.7696pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<Picture1a.png, id=22, 237.0456pt x 323.7696pt>
 File: Picture1a.png Graphic file (type png)
  <use Picture1a.png>
-Package pdftex.def Info: Picture1a.png used on input line 65.
+Package pdftex.def Info: Picture1a.png used on input line 64.
 (pdftex.def)             Requested size: 130.37546pt x 178.07382pt.
 
-<Picture1c.pdf, id=24, 173.448pt x 187.902pt>
+<Picture1c.pdf, id=25, 173.448pt x 187.902pt>
 File: Picture1c.pdf Graphic file (type pdf)
  <use Picture1c.pdf>
-Package pdftex.def Info: Picture1c.pdf used on input line 66.
+Package pdftex.def Info: Picture1c.pdf used on input line 65.
 (pdftex.def)             Requested size: 173.44757pt x 187.90154pt.
 
-<Picture1b.png, id=26, 246.1998pt x 296.7888pt>
+<Picture1b.png, id=27, 246.1998pt x 296.7888pt>
 File: Picture1b.png Graphic file (type png)
  <use Picture1b.png>
-Package pdftex.def Info: Picture1b.png used on input line 67.
+Package pdftex.def Info: Picture1b.png used on input line 66.
 (pdftex.def)             Requested size: 135.4103pt x 163.23434pt.
  [3]
-[4 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering 
-&imaging paper/Picture1a.png> <//elwood.nist.gov/684/users/dng5/My Documents/pa
-pers etc/S-wave scattering &imaging paper/Picture1c.pdf> <//elwood.nist.gov/684
-/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/Picture1b.
-png>] <figure1.pdf, id=78, 325.215pt x 252.945pt>
-File: figure1.pdf Graphic file (type pdf)
- <use figure1.pdf>
-Package pdftex.def Info: figure1.pdf used on input line 98.
+[4 <./Picture1a.png> <./Picture1c.pdf> <./Picture1b.png>]
+<Figure1.pdf, id=79, 325.215pt x 252.945pt>
+File: Figure1.pdf Graphic file (type pdf)
+ <use Figure1.pdf>
+Package pdftex.def Info: Figure1.pdf used on input line 97.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
 
-<figure2.pdf, id=80, 325.215pt x 252.945pt>
+<figure2.pdf, id=81, 325.215pt x 252.945pt>
 File: figure2.pdf Graphic file (type pdf)
  <use figure2.pdf>
-Package pdftex.def Info: figure2.pdf used on input line 104.
+Package pdftex.def Info: figure2.pdf used on input line 103.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
- [5] [6 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
-ring &imaging paper/figure1.pdf> <//elwood.nist.gov/684/users/dng5/My Documents
-/papers etc/S-wave scattering &imaging paper/figure2.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+ [5] [6 <./Figure1.pdf> <./figure2.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
-
-<figure3.pdf, id=122, 361.35pt x 216.81pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+<figure3.pdf, id=123, 361.35pt x 216.81pt>
 File: figure3.pdf Graphic file (type pdf)
  <use figure3.pdf>
-Package pdftex.def Info: figure3.pdf used on input line 153.
+Package pdftex.def Info: figure3.pdf used on input line 152.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-<figure4.pdf, id=123, 325.215pt x 251.13824pt>
+ [7]
+<figure4.pdf, id=128, 325.215pt x 251.13824pt>
 File: figure4.pdf Graphic file (type pdf)
  <use figure4.pdf>
-Package pdftex.def Info: figure4.pdf used on input line 159.
+Package pdftex.def Info: figure4.pdf used on input line 158.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
- [7] [8 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
-ring &imaging paper/figure3.pdf>] [9 <//elwood.nist.gov/684/users/dng5/My Docum
-ents/papers etc/S-wave scattering &imaging paper/figure4.pdf>]
-<figure5.pdf, id=171, 325.215pt x 251.13824pt>
+ [8 <./figure3.pdf>] [9 <./figure4.pdf>] <figure5.pdf, id=173, 325.215pt x 251.
+13824pt>
 File: figure5.pdf Graphic file (type pdf)
- <use figure5.pdf>
-Package pdftex.def Info: figure5.pdf used on input line 204.
+
+<use figure5.pdf>
+Package pdftex.def Info: figure5.pdf used on input line 203.
 (pdftex.def)             Requested size: 325.2142pt x 251.13763pt.
-
-<figure6a.pdf, id=172, 252.945pt x 252.945pt>
+ <figure6a.pdf, id=174, 252.945pt x 252.945pt>
 File: figure6a.pdf Graphic file (type pdf)
- <use figure6a.pdf>
-Package pdftex.def Info: figure6a.pdf used on input line 210.
-(pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-<figure6b.pdf, id=173, 252.945pt x 252.945pt>
+<use figure6a.pdf>
+Package pdftex.def Info: figure6a.pdf used on input line 209.
+(pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
+ <figure6b.pdf, id=175, 252.945pt x 252.945pt>
 File: figure6b.pdf Graphic file (type pdf)
- <use figure6b.pdf>
-Package pdftex.def Info: figure6b.pdf used on input line 211.
+
+<use figure6b.pdf>
+Package pdftex.def Info: figure6b.pdf used on input line 210.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-Overfull \hbox (62.09988pt too wide) in paragraph at lines 210--212
+Overfull \hbox (62.09988pt too wide) in paragraph at lines 209--211
 [][] [] 
  []
 
-<figure7.pdf, id=174, 325.215pt x 252.945pt>
+<figure7.pdf, id=176, 325.215pt x 252.945pt>
 File: figure7.pdf Graphic file (type pdf)
  <use figure7.pdf>
-Package pdftex.def Info: figure7.pdf used on input line 217.
+Package pdftex.def Info: figure7.pdf used on input line 216.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
- [10 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
-g &imaging paper/figure5.pdf>] [11 <//elwood.nist.gov/684/users/dng5/My Documen
-ts/papers etc/S-wave scattering &imaging paper/figure6a.pdf> <//elwood.nist.gov
-/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figure
-6b.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
-ring &imaging paper/figure7.pdf>] <figure9a.pdf, id=282, 252.945pt x 252.945pt>
+ [10 <./figure5.pdf>] <figure9a.pdf, id=195, 252.945pt x 252.945pt>
 File: figure9a.pdf Graphic file (type pdf)
-
-<use figure9a.pdf>
-Package pdftex.def Info: figure9a.pdf used on input line 227.
+ <use figure9a.pdf>
+Package pdftex.def Info: figure9a.pdf used on input line 226.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
- <figure9b.pdf, id=283, 252.945pt x 252.945pt>
+
+<figure9b.pdf, id=196, 252.945pt x 252.945pt>
 File: figure9b.pdf Graphic file (type pdf)
-
-<use figure9b.pdf>
-Package pdftex.def Info: figure9b.pdf used on input line 228.
+ <use figure9b.pdf>
+Package pdftex.def Info: figure9b.pdf used on input line 227.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-Overfull \hbox (62.09988pt too wide) in paragraph at lines 227--229
+Overfull \hbox (62.09988pt too wide) in paragraph at lines 226--228
 [][] [] 
  []
 
-[12 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
- &imaging paper/figure9a.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/pa
-pers etc/S-wave scattering &imaging paper/figure9b.pdf>]
-<figure8.pdf, id=324, 325.215pt x 252.945pt>
+[11 <./figure6a.pdf> <./figure6b.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure6b.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [12 <./figure7.pdf>] <figure8.pdf, id=291, 325.215pt x 252.945pt>
 File: figure8.pdf Graphic file (type pdf)
- <use figure8.pdf>
-Package pdftex.def Info: figure8.pdf used on input line 238.
+
+<use figure8.pdf>
+Package pdftex.def Info: figure8.pdf used on input line 237.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
- [13] [14 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scat
-tering &imaging paper/figure8.pdf>] <figure10a.pdf, id=350, 202.356pt x 216.81p
-t>
+ [13 <./figure9a.pdf> <./figure9b.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure9b.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [14 <./figure8.pdf>] <figure10a.pdf, id=354, 202.356pt x 216.81pt>
 File: figure10a.pdf Graphic file (type pdf)
 
 <use figure10a.pdf>
-Package pdftex.def Info: figure10a.pdf used on input line 256.
+Package pdftex.def Info: figure10a.pdf used on input line 255.
 (pdftex.def)             Requested size: 202.3555pt x 216.80946pt.
- <figure10b.pdf, id=351, 224.037pt x 216.81pt>
+ <figure10b.pdf, id=355, 224.037pt x 216.81pt>
 File: figure10b.pdf Graphic file (type pdf)
 
 <use figure10b.pdf>
-Package pdftex.def Info: figure10b.pdf used on input line 257.
+Package pdftex.def Info: figure10b.pdf used on input line 256.
 (pdftex.def)             Requested size: 224.03644pt x 216.80946pt.
- <Picture12.pdf, id=352, 963.6pt x 542.025pt>
+ [15] <Picture12.pdf, id=359, 963.6pt x 542.025pt>
 File: Picture12.pdf Graphic file (type pdf)
 
 <use Picture12.pdf>
-Package pdftex.def Info: Picture12.pdf used on input line 263.
+Package pdftex.def Info: Picture12.pdf used on input line 262.
 (pdftex.def)             Requested size: 240.89941pt x 135.5059pt.
- <figure12b.pdf, id=353, 216.81pt x 144.54pt>
+ <figure12b.pdf, id=360, 216.81pt x 144.54pt>
 File: figure12b.pdf Graphic file (type pdf)
 
 <use figure12b.pdf>
-Package pdftex.def Info: figure12b.pdf used on input line 264.
+Package pdftex.def Info: figure12b.pdf used on input line 263.
 (pdftex.def)             Requested size: 216.80946pt x 144.53963pt.
 
-Overfull \hbox (13.92pt too wide) in paragraph at lines 263--265
+Overfull \hbox (13.92pt too wide) in paragraph at lines 262--264
 [][] [] 
  []
 
-[15] [16 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatt
-ering &imaging paper/figure10a.pdf> <//elwood.nist.gov/684/users/dng5/My Docume
-nts/papers etc/S-wave scattering &imaging paper/figure10b.pdf>] [17 <//elwood.n
-ist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper
-/Picture12.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wav
-e scattering &imaging paper/figure12b.pdf>]
-<figure11.pdf, id=653, 325.215pt x 252.945pt>
+[16 <./figure10a.pdf> <./figure10b.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure10b.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] [17 <./Picture12.pdf> <./figure12b.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure12b.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <figure11.pdf, id=656, 325.215pt x 252.945pt>
 File: figure11.pdf Graphic file (type pdf)
  <use figure11.pdf>
-Package pdftex.def Info: figure11.pdf used on input line 281.
+Package pdftex.def Info: figure11.pdf used on input line 280.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
- [18 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
-g &imaging paper/figure11.pdf>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\draft1.bbl") [19]
-("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\draft1.aux")
+ [18]
+(./draft1.bbl [19 <./figure11.pdf>]) [20] (./draft1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2470 strings out of 494045
- 31092 string characters out of 3145972
- 85747 words of memory out of 3000000
- 5716 multiletter control sequences out of 15000+200000
- 15059 words of font info for 57 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 27i,8n,24p,1707b,470s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (19 pages, 1320767 bytes).
+ 2718 strings out of 495028
+ 33960 string characters out of 6181496
+ 93845 words of memory out of 5000000
+ 5853 multiletter control sequences out of 15000+600000
+ 15059 words of font info for 57 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,8n,26p,1617b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msbm10.pfb>
+Output written on draft1.pdf (20 pages, 1169796 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
+ 778 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
