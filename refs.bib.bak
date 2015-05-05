@@ -2,6 +2,23 @@
 % Encoding: UTF8
 
 
+@Article{vanAbeelen99,
+  Title                    = {Time-Dependent Feshbach Resonance Scattering and Anomalous Decay of a Na Bose-Einstein Condensate},
+  Author                   = {van Abeelen, F. A. and Verhaar, B. J.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1999},
+
+  Month                    = {Aug},
+  Pages                    = {1550--1553},
+  Volume                   = {83},
+
+  Doi                      = {10.1103/PhysRevLett.83.1550},
+  Issue                    = {8},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.83.1550}
+}
+
 @Article{Chin10,
   Title                    = {Feshbach resonances in ultracold gases},
   Author                   = {Chin, Cheng and Grimm, Rudolf and Julienne, Paul and Tiesinga, Eite},
@@ -17,6 +34,65 @@
   Numpages                 = {62},
   Publisher                = {American Physical Society},
   Url                      = {http://link.aps.org/doi/10.1103/RevModPhys.82.1225}
+}
+
+@Article{Gao11,
+  Title                    = {Analytic description of atomic interaction at ultracold temperatures. II. Scattering around a magnetic Feshbach resonance},
+  Author                   = {Gao, Bo},
+  Journal                  = {Phys. Rev. A},
+  Year                     = {2011},
+
+  Month                    = {Aug},
+  Pages                    = {022706},
+  Volume                   = {84},
+
+  Doi                      = {10.1103/PhysRevA.84.022706},
+  Issue                    = {2},
+  Numpages                 = {12},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevA.84.022706}
+}
+
+@Article{Inouye98,
+  Title                    = {{Observation of Feshbach resonances in a Bose-Einstein condensate}},
+  Author                   = {Inouye, S and Andrews, MR and Stenger, J and Miesner, HJ and
+ Stamper-Kurn, DM and Ketterle, W},
+  Journal                  = {{NATURE}},
+  Year                     = {{1998}},
+
+  Month                    = {{MAR 12}},
+  Number                   = {{6672}},
+  Pages                    = {{151-154}},
+  Volume                   = {{392}},
+
+  Abstract                 = {{It has long been predicted that the scattering of ultracold atoms can be
+ altered significantly through a so-called `Feshbach resonance'. Two such
+ resonances have now been observed in optically trapped Bose-Einstein
+ condensates of sodium atoms by varying an external magnetic field. They
+ gave rise to enhanced inelastic: processes and a dispersive variation of
+ the scattering length by a factor of over ten. These resonances open new
+ possibilities for the study and manipulation of Bose-Einstein
+ condensates.}},
+  Address                  = {{PORTERS SOUTH, 4 CRINAN ST, LONDON, ENGLAND N1 9XW}},
+  Affiliation              = {{Ketterle, W (Reprint Author), MIT, Dept Phys, Cambridge, MA 02139 USA.
+ MIT, Dept Phys, Cambridge, MA 02139 USA.
+ MIT, Elect Res Lab, Cambridge, MA 02139 USA.}},
+  Doc-delivery-number      = {{ZB349}},
+  ISSN                     = {{0028-0836}},
+  Journal-iso              = {{Nature}},
+  Keywords-plus            = {{COLLISIONS; ATOMS; GAS}},
+  Language                 = {{English}},
+  Number-of-cited-references = {{24}},
+  Orcid-numbers            = {{Stamper-Kurn, Dan/0000-0002-4845-5835}},
+  Owner                    = {dng5},
+  Publisher                = {{MACMILLAN MAGAZINES LTD}},
+  Research-areas           = {{Science \& Technology - Other Topics}},
+  Researcherid-numbers     = {{Stamper-Kurn, Dan/B-5442-2015}},
+  Times-cited              = {{1302}},
+  Timestamp                = {2015.04.28},
+  Type                     = {{Article}},
+  Unique-id                = {{ISI:000072462700052}},
+  Web-of-science-categories = {{Multidisciplinary Sciences}}
 }
 
 @PhdThesis{LJLthesis,
@@ -39,6 +115,40 @@ Bose-Einstein condensates},
 
   Owner                    = {dng5},
   Timestamp                = {2014.12.19}
+}
+
+@Article{Lysebo09,
+  Title                    = {\textit{Ab initio} calculation of Feshbach resonances in cold atomic collisions: $s$- and $p$-wave Feshbach resonances in $^{6}\rm{Li}_{2}$},
+  Author                   = {Lysebo, M. and Veseth, L.},
+  Journal                  = {Phys. Rev. A},
+  Year                     = {2009},
+
+  Month                    = {Jun},
+  Pages                    = {062704},
+  Volume                   = {79},
+
+  Doi                      = {10.1103/PhysRevA.79.062704},
+  Issue                    = {6},
+  Numpages                 = {20},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevA.79.062704}
+}
+
+@Article{Marte02,
+  Title                    = {Feshbach Resonances in Rubidium 87: Precision Measurement and Analysis},
+  Author                   = {Marte, A. and Volz, T. and Schuster, J. and D\"urr, S. and Rempe, G. and van Kempen, E. G. M. and Verhaar, B. J.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2002},
+
+  Month                    = {Dec},
+  Pages                    = {283202},
+  Volume                   = {89},
+
+  Doi                      = {10.1103/PhysRevLett.89.283202},
+  Issue                    = {28},
+  Numpages                 = {4},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.89.283202}
 }
 
 @Article{Monroe93,
@@ -71,6 +181,16 @@ Bose-Einstein condensates},
   Doi                      = {10.1126/science.1079107},
   Eprint                   = {http://www.sciencemag.org/content/298/5601/2179.full.pdf},
   Url                      = {http://www.sciencemag.org/content/298/5601/2179.abstract}
+}
+
+@PhdThesis{RegalThesis,
+  Title                    = {Experimental realization of BCS-BEC crossover physics with a Fermi gas of atoms},
+  Author                   = {Cindy Regal},
+  School                   = {JILA},
+  Year                     = {2005},
+
+  Owner                    = {dng5},
+  Timestamp                = {2015.02.10}
 }
 
 @Article{Regal03,
@@ -106,6 +226,23 @@ Bose-Einstein condensates},
   Keywords                 = {Laser trapping; Imaging systems},
   Publisher                = {OSA},
   Url                      = {http://ol.osa.org/abstract.cfm?URI=ol-32-21-3143}
+}
+
+@Article{Vogels97,
+  Title                    = {Prediction of Feshbach resonances in collisions of ultracold rubidium atoms},
+  Author                   = {Vogels, J. M. and Tsai, C. C. and Freeland, R. S. and Kokkelmans, S. J. J. M. F. and Verhaar, B. J. and Heinzen, D. J.},
+  Journal                  = {Phys. Rev. A},
+  Year                     = {1997},
+
+  Month                    = {Aug},
+  Pages                    = {R1067--R1070},
+  Volume                   = {56},
+
+  Doi                      = {10.1103/PhysRevA.56.R1067},
+  Issue                    = {2},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevA.56.R1067}
 }
 
 @Article{Williams2012,
