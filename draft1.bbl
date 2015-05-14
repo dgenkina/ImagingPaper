@@ -9,8 +9,12 @@ Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
 SL~Cornish, NR~Claussen, JL~Roberts, EA~Cornell, and CE~Wieman.
 \newblock {Stable Rb-85 Bose-Einstein condensates with widely tunable
   interactions}.
-\newblock {\em {PHYSICAL REVIEW LETTERS}}, {85}({9}):{1795--1798}, {AUG 28}
-  {2000}.
+\newblock {\em Phys. Rev. Lett.}, {85}({9}):{1795--1798}, {Aug 28} {2000}.
+
+\bibitem{DeMarco99}
+B~DeMarco and DS~Jin.
+\newblock {Onset of Fermi degeneracy in a trapped atomic gas}.
+\newblock {\em {Science}}, {285}({5434}):{1703--1706}, {Sep 10} {1999}.
 
 \bibitem{Gao11}
 Bo~Gao.
@@ -21,7 +25,15 @@ Bo~Gao.
 \bibitem{Inouye98}
 S~Inouye, MR~Andrews, J~Stenger, HJ~Miesner, DM~Stamper-Kurn, and W~Ketterle.
 \newblock {Observation of Feshbach resonances in a Bose-Einstein condensate}.
-\newblock {\em {NATURE}}, {392}({6672}):{151--154}, {MAR 12} {1998}.
+\newblock {\em {Nature}}, {392}({6672}):{151--154}, {Mar 12} {1998}.
+
+\bibitem{Konstantinidis12}
+Gregory~O. Konstantinidis, Melina Pappa, Gustav Wikstroem, Paul~C. Condylis,
+  Daniel Sahagun, Mark Baker, Olivier Morizot, and Wolf von Klitzing.
+\newblock {Atom number calibration in absorption imaging at very small atom
+  numbers}.
+\newblock {\em {Central European Journal Of Physics}}, {10}({5}):{1054--1058},
+  {Oct} {2012}.
 
 \bibitem{LJLthesis}
 Lindsey~J. LeBlanc.
@@ -50,6 +62,11 @@ C.~Regal and D.~Jin.
   gas of atoms.
 \newblock {\em Phys. Rev. Lett.}, 90:230404, Jun 2003.
 
+\bibitem{Regal04}
+CA~Regal, M~Greiner, and DS~Jin.
+\newblock {Observation of resonance condensation of fermionic atom pairs}.
+\newblock {\em Phys. Rev. Lett.}, {92}({4}), {Jan 30} {2004}.
+
 \bibitem{RegalThesis}
 Cindy Regal.
 \newblock {\em Experimental realization of BCS-BEC crossover physics with a
@@ -61,6 +78,24 @@ G.~Reinaudi, T.~Lahaye, Z.~Wang, and D.~Gu\'{e}ry-Odelin.
 \newblock Strong saturation absorption imaging of dense clouds of ultracold
   atoms.
 \newblock {\em Opt. Lett.}, 32(21):3143--3145, Nov 2007.
+
+\bibitem{Tiesinga93}
+E~Tiesinga, BJ~Verhaar, and HTC Stoof.
+\newblock {Threshold and resonance phenomena in ultracold ground-state
+  collisions}.
+\newblock {\em Phys. Rev. A}, {47}({5, B}):{4114--4122}, {MAY} {1993}.
+
+\bibitem{Timmermans99}
+E~Timmermans, P~Tommasini, MS~Hussein, and A~Kerman.
+\newblock {Feshbach resonances in atomic Bose-Einstein condensates}.
+\newblock {\em {Physics Reports-review Section Of Physics Letters}},
+  {315}({1-3}):{199--230}, {Jul} {1999}.
+
+\bibitem{Williams2012}
+R.~A. Williams, L.~J. LeBlanc, K.~Jiménez-García, M.~C. Beeler, A.~R. Perry,
+  W.~D. Phillips, and I.~B. Spielman.
+\newblock Synthetic partial waves in ultracold atomic collisions.
+\newblock {\em Science}, 335(6066):314--317, 2012.
 
 \bibitem{Wu05}
 Saijun Wu, Ying-Ju Wang, Quentin Diot, and Mara Prentiss.

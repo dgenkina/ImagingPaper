@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  11 MAY 2015 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  14 MAY 2015 10:53
 entering extended mode
 **//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
 maging*paper/draft1.tex
@@ -277,23 +277,16 @@ File: figure7.pdf Graphic file (type pdf)
  <use figure7.pdf>
 Package pdftex.def Info: figure7.pdf used on input line 216.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
-
-Underfull \hbox (badness 1014) in paragraph at lines 222--223
-\OT1/cmr/m/n/12 This simulation allows us to interpret experimentally obtained 
-initial and final
- []
-
-[10 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
- &imaging paper/figure5.pdf>] <figure9a.pdf, id=206, 252.945pt x 252.945pt>
+ [10 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
+g &imaging paper/figure5.pdf>] <figure9a.pdf, id=206, 252.945pt x 252.945pt>
 File: figure9a.pdf Graphic file (type pdf)
-
-<use figure9a.pdf>
+ <use figure9a.pdf>
 Package pdftex.def Info: figure9a.pdf used on input line 226.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
- <figure9b.pdf, id=207, 252.945pt x 252.945pt>
-File: figure9b.pdf Graphic file (type pdf)
 
-<use figure9b.pdf>
+<figure9b.pdf, id=207, 252.945pt x 252.945pt>
+File: figure9b.pdf Graphic file (type pdf)
+ <use figure9b.pdf>
 Package pdftex.def Info: figure9b.pdf used on input line 227.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
@@ -308,47 +301,52 @@ pers etc/S-wave scattering &imaging paper/figure6b.pdf
 pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
 s/papers etc/S-wave scattering &imaging paper/figure6b.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] <figure8.pdf, id=269, 325.215pt x 252.945pt>
-File: figure8.pdf Graphic file (type pdf)
- <use figure8.pdf>
-Package pdftex.def Info: figure8.pdf used on input line 237.
-(pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
- [12 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatterin
-g &imaging paper/figure7.pdf>] [13 <//elwood.nist.gov/684/users/dng5/My Documen
-ts/papers etc/S-wave scattering &imaging paper/figure9a.pdf> <//elwood.nist.gov
-/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figure
-9b.pdf
+>] [12 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
+ing &imaging paper/figure7.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/
+papers etc/S-wave scattering &imaging paper/figure9a.pdf
+
+pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
+s/papers etc/S-wave scattering &imaging paper/figure9a.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering &
+imaging paper/figure9b.pdf
 
 pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
 s/papers etc/S-wave scattering &imaging paper/figure9b.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [14 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
-ing &imaging paper/figure8.pdf>] <figure10a.pdf, id=349, 202.356pt x 216.81pt>
+>] <figure8.pdf, id=325, 325.215pt x 252.945pt>
+File: figure8.pdf Graphic file (type pdf)
+ <use figure8.pdf>
+Package pdftex.def Info: figure8.pdf used on input line 237.
+(pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
+ [13] [14 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scat
+tering &imaging paper/figure8.pdf>] <figure10a.pdf, id=348, 202.356pt x 216.81p
+t>
 File: figure10a.pdf Graphic file (type pdf)
 
 <use figure10a.pdf>
-Package pdftex.def Info: figure10a.pdf used on input line 256.
+Package pdftex.def Info: figure10a.pdf used on input line 258.
 (pdftex.def)             Requested size: 202.3555pt x 216.80946pt.
- <figure10b.pdf, id=350, 224.037pt x 216.81pt>
+ <figure10b.pdf, id=349, 224.037pt x 216.81pt>
 File: figure10b.pdf Graphic file (type pdf)
 
 <use figure10b.pdf>
-Package pdftex.def Info: figure10b.pdf used on input line 257.
+Package pdftex.def Info: figure10b.pdf used on input line 259.
 (pdftex.def)             Requested size: 224.03644pt x 216.80946pt.
- [15] <Picture12.pdf, id=354, 3468.96pt x 1734.48pt>
+ [15] <Picture12.pdf, id=353, 3468.96pt x 1734.48pt>
 File: Picture12.pdf Graphic file (type pdf)
 
 <use Picture12.pdf>
-Package pdftex.def Info: Picture12.pdf used on input line 263.
+Package pdftex.def Info: Picture12.pdf used on input line 265.
 (pdftex.def)             Requested size: 260.16078pt x 130.08038pt.
- <figure12b.pdf, id=355, 216.81pt x 144.54pt>
+ <figure12b.pdf, id=354, 216.81pt x 144.54pt>
 File: figure12b.pdf Graphic file (type pdf)
 
 <use figure12b.pdf>
-Package pdftex.def Info: figure12b.pdf used on input line 264.
+Package pdftex.def Info: figure12b.pdf used on input line 266.
 (pdftex.def)             Requested size: 216.80946pt x 144.53963pt.
 
-Overfull \hbox (33.18137pt too wide) in paragraph at lines 263--265
+Overfull \hbox (33.18137pt too wide) in paragraph at lines 265--267
 [][] [] 
  []
 
@@ -362,11 +360,14 @@ ltiple pdfs with page group included in a single page
 >] [17 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
 ing &imaging paper/Picture12.pdf, page is rotated 90 degrees> <//elwood.nist.go
 v/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figur
-e12b.pdf>] <figure11.pdf, id=667, 325.215pt x 252.945pt>
+e12b.pdf>] <figure11.pdf, id=666, 325.215pt x 252.945pt>
 File: figure11.pdf Graphic file (type pdf)
  <use figure11.pdf>
-Package pdftex.def Info: figure11.pdf used on input line 281.
+Package pdftex.def Info: figure11.pdf used on input line 285.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
+
+[18 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
+ &imaging paper/figure11.pdf>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -375,8 +376,12 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
-maging paper\draft1.bbl" [18] [19 <//elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure11.pdf>]) [20]
+maging paper\draft1.bbl" [19]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+) [20]
 ("\\elwood.nist.gov\684\users\dng5\My Documents\papers etc\S-wave scattering &i
 maging paper\draft1.aux")
 
@@ -384,13 +389,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2363 strings out of 493921
- 29977 string characters out of 3144879
- 85598 words of memory out of 3000000
- 5613 multiletter control sequences out of 15000+200000
+ 2369 strings out of 493921
+ 30055 string characters out of 3144879
+ 85622 words of memory out of 3000000
+ 5619 multiletter control sequences out of 15000+200000
  15059 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,26p,1858b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,26p,1881b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
@@ -411,9 +416,9 @@ pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (20 pages, 1407395 bytes).
+Output written on draft1.pdf (20 pages, 1406850 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
+ 789 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
