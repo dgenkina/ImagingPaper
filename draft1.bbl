@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{BestThesis}
+Thorseten Best.
+\newblock {\em Interacting Bose-Fermi mixtures in optical lattices}.
+\newblock PhD thesis, Johannes Gutenberg-Universitat, 2010.
+
 \bibitem{Chin10}
 Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
 \newblock Feshbach resonances in ultracold gases.
@@ -27,6 +32,18 @@ S~Inouye, MR~Andrews, J~Stenger, HJ~Miesner, DM~Stamper-Kurn, and W~Ketterle.
 \newblock {Observation of Feshbach resonances in a Bose-Einstein condensate}.
 \newblock {\em {Nature}}, {392}({6672}):{151--154}, {Mar 12} {1998}.
 
+\bibitem{KarinaThesis}
+Karina Jimenez-Garcia.
+\newblock {\em Artificial Gauge Fields for Ultracold Neutral Atoms}.
+\newblock PhD thesis, Joint Quantum Institute, National Institute of Standards
+  and Technology, and the University of Maryland, 2012.
+
+\bibitem{KetterleDFG}
+Wolfgang Ketterle and Martin~W. Zwierlein.
+\newblock Making, probing and understanding ultracold fermi gases.
+\newblock In {\em Ultracold Fermi Gases, Proceedings of the International
+  School of Physics `Enrico Fermi', Course CLXIV}, Varenna, 20-30 June 2006.
+
 \bibitem{Konstantinidis12}
 Gregory~O. Konstantinidis, Melina Pappa, Gustav Wikstroem, Paul~C. Condylis,
   Daniel Sahagun, Mark Baker, Olivier Morizot, and Wolf von Klitzing.
@@ -40,11 +57,22 @@ Lindsey~J. LeBlanc.
 \newblock {\em Exploring many-body physics with ultracold atoms}.
 \newblock PhD thesis, University of Toronto, 2011.
 
+\bibitem{Lin09}
+Y.-J. Lin, A.~R. Perry, R.~L. Compton, I.~B. Spielman, and J.~V. Porto.
+\newblock Rapid production of $^{87}\rm{Rb}$ bose-einstein condensates in a
+  combined magnetic and optical potential.
+\newblock {\em Phys. Rev. A}, 79:063631, Jun 2009.
+
 \bibitem{Lysebo09}
 M.~Lysebo and L.~Veseth.
 \newblock \textit{Ab initio} calculation of feshbach resonances in cold atomic
   collisions: $s$- and $p$-wave feshbach resonances in $^{6}\rm{Li}_{2}$.
 \newblock {\em Phys. Rev. A}, 79:062704, Jun 2009.
+
+\bibitem{LCT}
+H.J. Metcalf and P.~van~der Straten.
+\newblock {\em Laser Cooling and Trapping}.
+\newblock Graduate Texts in Contemporary Physics. Springer New York, 1999.
 
 \bibitem{Monroe93}
 C.~Monroe, E.~Cornell, C.~Sackett, C.~Myatt, and C.~Wieman.
@@ -90,6 +118,19 @@ E~Timmermans, P~Tommasini, MS~Hussein, and A~Kerman.
 \newblock {Feshbach resonances in atomic Bose-Einstein condensates}.
 \newblock {\em {Physics Reports-review Section Of Physics Letters}},
   {315}({1-3}):{199--230}, {Jul} {1999}.
+
+\bibitem{KetterleBEC}
+D.S.~Durfee W.~Ketterle and D.M. Stamper-Kurn.
+\newblock Making, probing and understanding bose-einstein condensates.
+\newblock In {\em Bose-Einstein condensation in atomic gases, Proceedings of
+  the International School of Physics `Enrico Fermi'}, Course CXL, 1999.
+
+\bibitem{Williams13}
+R.~A. Williams, M.~C. Beeler, L.~J. LeBlanc, K.~Jim\'enez-Garc\'{i}a, and I.~B.
+  Spielman.
+\newblock Raman-induced interactions in a single-component fermi gas near an
+  $s$-wave feshbach resonance.
+\newblock {\em Phys. Rev. Lett.}, 111:095301, Aug 2013.
 
 \bibitem{Williams2012}
 R.~A. Williams, L.~J. LeBlanc, K.~Jiménez-García, M.~C. Beeler, A.~R. Perry,
