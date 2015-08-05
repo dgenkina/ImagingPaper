@@ -17,13 +17,6 @@ T.~Bourdel, L.~Khaykovich, J.~Cubizolles, J.~Zhang, F.~Chevy, M.~Teichmann,
 \newblock {Experimental Study of the BEC-BCS Crossover Region in Lithium 6}.
 \newblock {\em Phys. Rev. Lett.}, 93:050401, 2004.
 
-\bibitem{Chikkatur00}
-A.~P. Chikkatur, A.~G\"orlitz, D.~M. Stamper-Kurn, S.~Inouye, S.~Gupta, and
-  W.~Ketterle.
-\newblock {Suppression and enhancement of impurity scattering in a
-  Bose-Einstein condensate}.
-\newblock {\em Phys. Rev. Lett.}, 85:483--486, 2000.
-
 \bibitem{Chin10}
 Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
 \newblock Feshbach resonances in ultracold gases.
@@ -39,6 +32,11 @@ SL~Cornish, NR~Claussen, JL~Roberts, EA~Cornell, and CE~Wieman.
 B~DeMarco and DS~Jin.
 \newblock {Onset of Fermi degeneracy in a trapped atomic gas}.
 \newblock {\em {Science}}, {285}({5434}):{1703--1706}, {1999}.
+
+\bibitem{Edwards10}
+Mark Edwards, Brandon Benton, Jeffrey Heward, and Charles~W. Clark.
+\newblock Momentum-space engineering of gaseous bose-einstein condensates.
+\newblock {\em Phys. Rev. A}, 82:063613, 2010.
 
 \bibitem{Gao11}
 Bo~Gao.
@@ -153,15 +151,9 @@ D.S.~Durfee W.~Ketterle and D.M. Stamper-Kurn.
 \bibitem{Williams13}
 R.~A. Williams, M.~C. Beeler, L.~J. LeBlanc, K.~Jim\'enez-Garc\'{i}a, and I.~B.
   Spielman.
-\newblock {Raman-Induced interactions in a single-component Fermi gas near an
+\newblock {Raman-induced interactions in a single-component Fermi gas near an
   $s$-wave Feshbach resonance}.
 \newblock {\em Phys. Rev. Lett.}, 111:095301, 2013.
-
-\bibitem{Williams2012}
-R.~A. Williams, L.~J. LeBlanc, K.~Jiménez-García, M.~C. Beeler, A.~R. Perry,
-  W.~D. Phillips, and I.~B. Spielman.
-\newblock {Synthetic partial waves in ultracold atomic collisions}.
-\newblock {\em Science}, 335(6066):314--317, 2012.
 
 \bibitem{Wu05}
 Saijun Wu, Ying-Ju Wang, Quentin Diot, and Mara Prentiss.
