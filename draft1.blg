@@ -1,8 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: draft1.aux
 The style file: plain.bst
 Database file #1: refs.bib
+Repeated entry---line 149 of file refs.bib
+ : @article{DeMarco99
+ :                   ,
+I'm skipping whatever remains of this entry
 Name 1 in "W. Ketterle, D.S. Durfee, and D.M. Stamper-Kurn" has a comma at the end for entry KetterleBEC
 while executing---line 1049 of file plain.bst
 Name 1 in "W. Ketterle, D.S. Durfee, and D.M. Stamper-Kurn" has a comma at the end for entry KetterleBEC
 while executing---line 1090 of file plain.bst
-(There were 2 error messages)
+(There were 3 error messages)

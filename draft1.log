@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  5 AUG 2015 18:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.20)  15 AUG 2015 15:48
 entering extended mode
 **//elwood.nist.gov/684/users/dng5/My*Documents/papers*etc/S-wave*scattering*&i
 maging*paper/draft1.tex
@@ -187,12 +187,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<Picture1a.png, id=22, 237.0456pt x 305.4612pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 2253) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/12 A Feshbach resonance occurs when the two-atom continuum energ
+etically
+ []
+
+[2] <Picture1a.png, id=22, 237.0456pt x 323.7696pt>
 File: Picture1a.png Graphic file (type png)
  <use Picture1a.png>
 Package pdftex.def Info: Picture1a.png used on input line 69.
-(pdftex.def)             Requested size: 130.37546pt x 168.00417pt.
+(pdftex.def)             Requested size: 130.37546pt x 178.07382pt.
 
 <Picture1c.pdf, id=25, 173.448pt x 187.902pt>
 File: Picture1c.pdf Graphic file (type pdf)
@@ -226,16 +231,17 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 97--99
 [][] [] 
  []
 
+[5]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 126.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
- [5] [6 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatte
-ring &imaging paper/figure1.pdf> <//elwood.nist.gov/684/users/dng5/My Documents
-/papers etc/S-wave scattering &imaging paper/figure2.pdf
+ [6 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering
+ &imaging paper/figure1.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/pap
+ers etc/S-wave scattering &imaging paper/figure2.pdf
 
 pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
 s/papers etc/S-wave scattering &imaging paper/figure2.pdf): PDF inclusion: mult
@@ -262,24 +268,17 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 166--168
 [][] [] 
  []
 
-[7 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering 
-&imaging paper/figure3.pdf>] [8 <//elwood.nist.gov/684/users/dng5/My Documents/
-papers etc/S-wave scattering &imaging paper/figure4.pdf> <//elwood.nist.gov/684
-/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figure5.pd
-f
-
-pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
-s/papers etc/S-wave scattering &imaging paper/figure5.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
->] <figure6a.pdf, id=184, 252.945pt x 252.945pt>
+[7] [8 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
+ing &imaging paper/figure3.pdf>] <figure6a.pdf, id=159, 252.945pt x 252.945pt>
 File: figure6a.pdf Graphic file (type pdf)
- <use figure6a.pdf>
+
+<use figure6a.pdf>
 Package pdftex.def Info: figure6a.pdf used on input line 210.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
-
-<figure6b.pdf, id=185, 252.945pt x 252.945pt>
+ <figure6b.pdf, id=160, 252.945pt x 252.945pt>
 File: figure6b.pdf Graphic file (type pdf)
- <use figure6b.pdf>
+
+<use figure6b.pdf>
 Package pdftex.def Info: figure6b.pdf used on input line 211.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
@@ -287,13 +286,13 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 210--212
 [][] [] 
  []
 
-<figure7.pdf, id=186, 252.945pt x 252.945pt>
+<figure7.pdf, id=161, 252.945pt x 252.945pt>
 File: figure7.pdf Graphic file (type pdf)
  <use figure7.pdf>
 Package pdftex.def Info: figure7.pdf used on input line 217.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
-<figure8.pdf, id=187, 252.945pt x 252.945pt>
+<figure8.pdf, id=162, 252.945pt x 252.945pt>
 File: figure8.pdf Graphic file (type pdf)
  <use figure8.pdf>
 Package pdftex.def Info: figure8.pdf used on input line 218.
@@ -303,7 +302,14 @@ Overfull \hbox (62.09988pt too wide) in paragraph at lines 217--219
 [][] [] 
  []
 
-[9] <figure9a.pdf, id=191, 252.945pt x 252.945pt>
+[9 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scattering 
+&imaging paper/figure4.pdf> <//elwood.nist.gov/684/users/dng5/My Documents/pape
+rs etc/S-wave scattering &imaging paper/figure5.pdf
+
+pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
+s/papers etc/S-wave scattering &imaging paper/figure5.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] <figure9a.pdf, id=191, 252.945pt x 252.945pt>
 File: figure9a.pdf Graphic file (type pdf)
  <use figure9a.pdf>
 Package pdftex.def Info: figure9a.pdf used on input line 228.
@@ -352,11 +358,11 @@ File: figure10b.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure10b.pdf used on input line 263.
 (pdftex.def)             Requested size: 224.03644pt x 216.80946pt.
 
-<Picture12.pdf, id=346, 3468.96pt x 1734.48pt>
+<Picture12.pdf, id=346, 281.17044pt x 161.90488pt>
 File: Picture12.pdf Graphic file (type pdf)
  <use Picture12.pdf>
 Package pdftex.def Info: Picture12.pdf used on input line 269.
-(pdftex.def)             Requested size: 260.16078pt x 130.08038pt.
+(pdftex.def)             Requested size: 253.05106pt x 145.71303pt.
 
 <figure12b.pdf, id=347, 216.81pt x 144.54pt>
 File: figure12b.pdf Graphic file (type pdf)
@@ -364,7 +370,7 @@ File: figure12b.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure12b.pdf used on input line 270.
 (pdftex.def)             Requested size: 216.80946pt x 144.53963pt.
 
-Overfull \hbox (33.18137pt too wide) in paragraph at lines 269--271
+Overfull \hbox (26.07164pt too wide) in paragraph at lines 269--271
 [][] [] 
  []
 
@@ -376,15 +382,14 @@ pdfTeX warning: pdflatex.EXE (file //elwood.nist.gov/684/users/dng5/My Document
 s/papers etc/S-wave scattering &imaging paper/figure10b.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] [16 <//elwood.nist.gov/684/users/dng5/My Documents/papers etc/S-wave scatter
-ing &imaging paper/Picture12.pdf, page is rotated 90 degrees> <//elwood.nist.go
-v/684/users/dng5/My Documents/papers etc/S-wave scattering &imaging paper/figur
-e12b.pdf>] <figure11.pdf, id=660, 325.215pt x 252.945pt>
+ing &imaging paper/Picture12.pdf> <//elwood.nist.gov/684/users/dng5/My Document
+s/papers etc/S-wave scattering &imaging paper/figure12b.pdf>]
+<figure11.pdf, id=676, 325.215pt x 252.945pt>
 File: figure11.pdf Graphic file (type pdf)
  <use figure11.pdf>
 Package pdftex.def Info: figure11.pdf used on input line 289.
 (pdftex.def)             Requested size: 325.2142pt x 252.94438pt.
-
-[17]
+ [17]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -400,11 +405,11 @@ maging paper\draft1.aux") )
 Here is how much of TeX's memory you used:
  2392 strings out of 493921
  30254 string characters out of 3144879
- 87617 words of memory out of 3000000
+ 89617 words of memory out of 3000000
  5638 multiletter control sequences out of 15000+200000
  16299 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,26p,1230b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,26p,1254b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
@@ -427,9 +432,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on draft1.pdf (20 pages, 1431998 bytes).
+Output written on draft1.pdf (20 pages, 1510059 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
+ 808 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
