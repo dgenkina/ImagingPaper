@@ -74,7 +74,7 @@
 
 @Article{Chin10,
   Title                    = {Feshbach resonances in ultracold gases},
-  Author                   = {Chin, Cheng and Grimm, Rudolf and Julienne, Paul and Tiesinga, Eite},
+  Author                   = {Chin, C. and Grimm, R. and Julienne, P. and Tiesinga, E.},
   Journal                  = {Rev. Mod. Phys.},
   Year                     = {2010},
   Pages                    = {1225--1286},
@@ -89,8 +89,8 @@
 
 @Article{Cornish00,
   Title                    = {{Stable Rb-85 Bose-Einstein condensates with widely tunable interactions}},
-  Author                   = {Cornish, SL and Claussen, NR and Roberts, JL and Cornell, EA and Wieman,
- CE},
+  Author                   = {Cornish, S. L. and Claussen, N. R. and Roberts, J. L. and Cornell, E. A. and Wieman,
+ C. E.},
   Journal                  = {Phys. Rev. Lett.},
   Year                     = {{2000}},
   Number                   = {{9}},
@@ -132,8 +132,23 @@
 }
 
 @Article{DeMarco99,
+  Title                    = {Measurement of $\mathit{p}$-Wave Threshold Law Using Evaporatively Cooled Fermionic Atoms},
+  Author                   = {DeMarco, B. and Bohn, J. L. and Burke, J. P. and Holland, M. and Jin, D. S.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1999},
+  Pages                    = {4208--4211},
+  Volume                   = {82},
+
+  Doi                      = {10.1103/PhysRevLett.82.4208},
+  Issue                    = {21},
+  Numpages                 = {0},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.82.4208}
+}
+
+@Article{DeMarcoJin99,
   Title                    = {{Onset of Fermi degeneracy in a trapped atomic gas}},
-  Author                   = {DeMarco, B and Jin, DS},
+  Author                   = {DeMarco, B. and Jin, D. S.},
   Journal                  = {{Science}},
   Year                     = {{1999}},
   Number                   = {{5434}},
@@ -174,7 +189,7 @@
 
 @Article{Edwards10,
   Title                    = {Momentum-space engineering of gaseous Bose-Einstein condensates},
-  Author                   = {Edwards, Mark and Benton, Brandon and Heward, Jeffrey and Clark, Charles W.},
+  Author                   = {Edwards, M. and Benton, B. and Heward, J. and Clark, C. W.},
   Journal                  = {Phys. Rev. A},
   Year                     = {2010},
   Pages                    = {063613},
@@ -189,7 +204,7 @@
 
 @Article{Gao11,
   Title                    = {{Analytic description of atomic interaction at ultracold temperatures. II. Scattering around a magnetic Feshbach resonance}},
-  Author                   = {Gao, Bo},
+  Author                   = {Gao, B.},
   Journal                  = {Phys. Rev. A},
   Year                     = {2011},
   Pages                    = {022706},
@@ -204,7 +219,7 @@
 
 @Article{Greiner03,
   Title                    = {{Emergence of a molecular Bose-Einstein condensate from a Fermi gas}},
-  Author                   = {Greiner, Markus and Regal, Cindy A. and Jin, Deborah S.},
+  Author                   = {Greiner, M. and Regal, C. A. and Jin, D. S.},
   Journal                  = {Nature},
   Year                     = {2003},
   Number                   = {6966},
@@ -220,8 +235,8 @@
 
 @Article{Inouye98,
   Title                    = {{Observation of Feshbach resonances in a Bose-Einstein condensate}},
-  Author                   = {Inouye, S and Andrews, MR and Stenger, J and Miesner, HJ and
- Stamper-Kurn, DM and Ketterle, W},
+  Author                   = {Inouye, S. and Andrews, M. R. and Stenger, J. and Miesner, H. J. and
+ Stamper-Kurn, D. M. and Ketterle, W.},
   Journal                  = {{Nature}},
   Year                     = {{1998}},
   Number                   = {{6672}},
@@ -283,9 +298,19 @@
   Url                      = {http://www.sciencemag.org/content/302/5653/2101.abstract}
 }
 
+@Conference{KetterleBEC,
+  Title                    = {{Making, probing and understanding Bose-Einstein condensates.}},
+  Author                   = {Ketterle, W. and Durfee, D. S. and Stamper-Kurn, D. M.},
+  Booktitle                = {Bose-Einstein condensation in atomic gases, Proceedings of the International School of Physics `Enrico Fermi'},
+  Year                     = {Course CXL, 1999},
+
+  Owner                    = {dng5},
+  Timestamp                = {2015.06.17}
+}
+
 @Conference{KetterleDFG,
   Title                    = {{Making, probing and understanding ultracold Fermi gases}},
-  Author                   = {Wolfgang Ketterle and Martin W. Zwierlein},
+  Author                   = {Ketterle, W. and Zwierlein, M. W.},
   Booktitle                = {Ultracold Fermi Gases, Proceedings of the International School of Physics `Enrico Fermi', Course CLXIV},
   Year                     = {20-30 June 2006},
 
@@ -297,9 +322,9 @@
 
 @Article{Konstantinidis12,
   Title                    = {{Atom number calibration in absorption imaging at very small atom numbers}},
-  Author                   = {Konstantinidis, Gregory O. and Pappa, Melina and Wikstroem, Gustav and
- Condylis, Paul C. and Sahagun, Daniel and Baker, Mark and Morizot,
- Olivier and von Klitzing, Wolf},
+  Author                   = {Konstantinidis, G. O. and Pappa, M. and Wikstroem, G. and
+ Condylis, P. C. and Sahagun, D. and Baker, M. and Morizot,
+ O. and von Klitzing, W.},
   Journal                  = {{Central European Journal Of Physics}},
   Year                     = {{2012}},
   Number                   = {{5}},
@@ -474,7 +499,7 @@ Bose-Einstein condensates}},
 
 @Article{Regal04,
   Title                    = {{Observation of resonance condensation of fermionic atom pairs}},
-  Author                   = {Regal, CA and Greiner, M and Jin, DS},
+  Author                   = {Regal, C. A. and Greiner, M. and Jin, D. S.},
   Journal                  = {Phys. Rev. Lett.},
   Year                     = {{2004}},
   Number                   = {{4}},
@@ -518,7 +543,7 @@ Bose-Einstein condensates}},
 
 @Article{Regal03,
   Title                    = {{Measurement of positive and negative scattering lengths in a Fermi gas of atoms}},
-  Author                   = {Regal, C. and Jin, D.},
+  Author                   = {Regal, C. A. and Jin, D. S.},
   Journal                  = {Phys. Rev. Lett.},
   Year                     = {2003},
   Pages                    = {230404},
@@ -533,7 +558,7 @@ Bose-Einstein condensates}},
 
 @Article{Reinaudi07,
   Title                    = {{Strong saturation absorption imaging of dense clouds of ultracold atoms}},
-  Author                   = {G. Reinaudi and T. Lahaye and Z. Wang and D. Gu\'{e}ry-Odelin},
+  Author                   = {Reinaudi, G. and Lahaye, T. and Wang, Z. and Gu\'{e}ry-Odelin, D.},
   Journal                  = {Opt. Lett.},
   Year                     = {2007},
   Number                   = {21},
@@ -549,7 +574,7 @@ Bose-Einstein condensates}},
 
 @Article{Tiesinga93,
   Title                    = {{Threshold and resonance phenomena in ultracold ground-state collisions}},
-  Author                   = {Tiesinga, E And Verhaar, BJ and Stoof, HTC},
+  Author                   = {Tiesinga, E. And Verhaar, B. J. and Stoof, H. T. C.},
   Journal                  = {Phys. Rev. A},
   Year                     = {{1993}},
   Number                   = {{5, B}},
@@ -589,7 +614,7 @@ Bose-Einstein condensates}},
 
 @Article{Timmermans99,
   Title                    = {{Feshbach resonances in atomic Bose-Einstein condensates}},
-  Author                   = {Timmermans, E and Tommasini, P and Hussein, MS and Kerman, A},
+  Author                   = {Timmermans, E. and Tommasini, P. and Hussein, M. S. and Kerman, A.},
   Journal                  = {{Physics Reports-review Section Of Physics Letters}},
   Year                     = {{1999}},
   Number                   = {{1-3}},
@@ -669,16 +694,6 @@ Bose-Einstein condensates}},
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevA.56.R1067}
 }
 
-@Conference{KetterleBEC,
-  Title                    = {{Making, probing and understanding Bose-Einstein condensates.}},
-  Author                   = {W. Ketterle, D.S. Durfee, and D.M. Stamper-Kurn},
-  Booktitle                = {Bose-Einstein condensation in atomic gases, Proceedings of the International School of Physics `Enrico Fermi'},
-  Year                     = {Course CXL, 1999},
-
-  Owner                    = {dng5},
-  Timestamp                = {2015.06.17}
-}
-
 @Article{Williams13,
   Title                    = {{Raman-induced interactions in a single-component Fermi gas near an $s$-wave Feshbach resonance}},
   Author                   = {Williams, R. A. and Beeler, M. C. and LeBlanc, L. J. and Jim\'enez-Garc\'{i}a, K. and Spielman, I. B.},
@@ -711,7 +726,7 @@ Bose-Einstein condensates}},
 
 @Article{Wu05,
   Title                    = {{Splitting matter waves using an optimized standing-wave light-pulse sequence}},
-  Author                   = {Wu, Saijun and Wang, Ying-Ju and Diot, Quentin and Prentiss, Mara},
+  Author                   = {Wu, S. and Wang, Y.-J. and Diot, Q. and Prentiss, M.},
   Journal                  = {Phys. Rev. A},
   Year                     = {2005},
   Pages                    = {043602},
