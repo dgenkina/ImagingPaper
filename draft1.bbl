@@ -1,65 +1,37 @@
 \begin{thebibliography}{10}
 
-\bibitem{Bartenstein04}
-M.~Bartenstein, A.~Altmeyer, S.~Riedl, S.~Jochim, C.~Chin, J.~Hecker Denschlag,
-  and R.~Grimm.
-\newblock Collective excitations of a degenerate gas at the bec-bcs crossover.
-\newblock {\em Phys. Rev. Lett.}, 92:203201, 2004.
+\bibitem{KetterleBEC}
+W.~Ketterle, D.~S. Durfee, and D.~M. Stamper-Kurn.
+\newblock {Making, probing and understanding Bose-Einstein condensates.}
+\newblock In {\em Bose-Einstein condensation in atomic gases, Proceedings of
+  the International School of Physics `Enrico Fermi'}, Course CXL, 1999.
 
-\bibitem{BestThesis}
-Thorseten Best.
-\newblock {\em Interacting Bose-Fermi mixtures in optical lattices}.
-\newblock PhD thesis, Johannes Gutenberg-Universitat, 2010.
+\bibitem{Aikawa14}
+K.~Aikawa, A.~Frisch, M.~Mark, S.~Baier, R.~Grimm, and F.~Ferlaino.
+\newblock Reaching fermi degeneracy via universal dipolar scattering.
+\newblock {\em Phys. Rev. Lett.}, 112:010404, Jan 2014.
 
-\bibitem{Bourdel04}
-T.~Bourdel, L.~Khaykovich, J.~Cubizolles, J.~Zhang, F.~Chevy, M.~Teichmann,
-  L.~Tarruell, S.~J. J. M.~F. Kokkelmans, and C.~Salomon.
-\newblock {Experimental Study of the BEC-BCS Crossover Region in Lithium 6}.
-\newblock {\em Phys. Rev. Lett.}, 93:050401, 2004.
+\bibitem{Lu12}
+M.~Lu, N.~Q. Burdick, and B.~L. Lev.
+\newblock Quantum degenerate dipolar fermi gas.
+\newblock {\em Phys. Rev. Lett.}, 108:215301, May 2012.
 
-\bibitem{Chin10}
-Cheng Chin, Rudolf Grimm, Paul Julienne, and Eite Tiesinga.
-\newblock Feshbach resonances in ultracold gases.
-\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, 2010.
-
-\bibitem{Cornish00}
-SL~Cornish, NR~Claussen, JL~Roberts, EA~Cornell, and CE~Wieman.
-\newblock {Stable Rb-85 Bose-Einstein condensates with widely tunable
-  interactions}.
-\newblock {\em Phys. Rev. Lett.}, {85}({9}):{1795--1798}, {2000}.
-
-\bibitem{DeMarco99}
-B.~DeMarco, J.~L. Bohn, J.~P. Burke, M.~Holland, and D.~S. Jin.
-\newblock Measurement of $\mathit{p}$-wave threshold law using evaporatively
-  cooled fermionic atoms.
-\newblock {\em Phys. Rev. Lett.}, 82:4208--4211, 1999.
-
-\bibitem{Edwards10}
-Mark Edwards, Brandon Benton, Jeffrey Heward, and Charles~W. Clark.
-\newblock Momentum-space engineering of gaseous bose-einstein condensates.
-\newblock {\em Phys. Rev. A}, 82:063613, 2010.
-
-\bibitem{Gao11}
-Bo~Gao.
-\newblock {Analytic description of atomic interaction at ultracold
-  temperatures. II. Scattering around a magnetic Feshbach resonance}.
-\newblock {\em Phys. Rev. A}, 84:022706, 2011.
+\bibitem{KetterleDFG}
+W.~Ketterle and M.~W. Zwierlein.
+\newblock {Making, probing and understanding ultracold Fermi gases}.
+\newblock In {\em Ultracold Fermi Gases, Proceedings of the International
+  School of Physics `Enrico Fermi', Course CLXIV}, Varenna, 20-30 June 2006.
 
 \bibitem{Greiner03}
-Markus Greiner, Cindy~A. Regal, and Deborah~S. Jin.
+M.~Greiner, C.~A. Regal, and D.~S. Jin.
 \newblock {Emergence of a molecular Bose-Einstein condensate from a Fermi gas}.
 \newblock {\em Nature}, 426(6966):537--540, 2003.
 
-\bibitem{Inouye98}
-S~Inouye, MR~Andrews, J~Stenger, HJ~Miesner, DM~Stamper-Kurn, and W~Ketterle.
-\newblock {Observation of Feshbach resonances in a Bose-Einstein condensate}.
-\newblock {\em {Nature}}, {392}({6672}):{151--154}, {1998}.
-
-\bibitem{KarinaThesis}
-Karina Jimenez-Garcia.
-\newblock {\em Artificial Gauge Fields for Ultracold Neutral Atoms}.
-\newblock PhD thesis, Joint Quantum Institute, National Institute of Standards
-  and Technology, and the University of Maryland, 2012.
+\bibitem{Zwierlein03}
+M.~W. Zwierlein, C.~A. Stan, C.~H. Schunck, S.~M.~F. Raupach, S.~Gupta,
+  Z.~Hadzibabic, and W.~Ketterle.
+\newblock {Observation of Bose-Einstein condensation of molecules}.
+\newblock {\em Phys. Rev. Lett.}, 91:250401, 2003.
 
 \bibitem{Jochim03}
 S.~Jochim, M.~Bartenstein, A.~Altmeyer, G.~Hendl, S.~Riedl, C.~Chin,
@@ -67,15 +39,101 @@ S.~Jochim, M.~Bartenstein, A.~Altmeyer, G.~Hendl, S.~Riedl, C.~Chin,
 \newblock {Bose-Einstein condensation of molecules}.
 \newblock {\em Science}, 302(5653):2101--2103, 2003.
 
-\bibitem{KetterleDFG}
-Wolfgang Ketterle and Martin~W. Zwierlein.
-\newblock {Making, probing and understanding ultracold Fermi gases}.
-\newblock In {\em Ultracold Fermi Gases, Proceedings of the International
-  School of Physics `Enrico Fermi', Course CLXIV}, Varenna, 20-30 June 2006.
+\bibitem{Bartenstein04}
+M.~Bartenstein, A.~Altmeyer, S.~Riedl, S.~Jochim, C.~Chin, J.~Hecker Denschlag,
+  and R.~Grimm.
+\newblock Collective excitations of a degenerate gas at the bec-bcs crossover.
+\newblock {\em Phys. Rev. Lett.}, 92:203201, 2004.
+
+\bibitem{Bourdel04}
+T.~Bourdel, L.~Khaykovich, J.~Cubizolles, J.~Zhang, F.~Chevy, M.~Teichmann,
+  L.~Tarruell, S.~J. J. M.~F. Kokkelmans, and C.~Salomon.
+\newblock {Experimental Study of the BEC-BCS Crossover Region in Lithium 6}.
+\newblock {\em Phys. Rev. Lett.}, 93:050401, 2004.
+
+\bibitem{Zwierlein04}
+M.~W. Zwierlein, C.~A. Stan, C.~H. Schunck, S.~M.~F. Raupach, A.~J. Kerman, and
+  W.~Ketterle.
+\newblock {Condensation of pairs of Fermionic atoms near a Feshbach resonance}.
+\newblock {\em Phys. Rev. Lett.}, 92:120403, 2004.
+
+\bibitem{Regal04}
+C.~A. Regal, M.~Greiner, and D.~S. Jin.
+\newblock {Observation of resonance condensation of fermionic atom pairs}.
+\newblock {\em Phys. Rev. Lett.}, {92}({4}), {2004}.
+
+\bibitem{Chin10}
+C.~Chin, R.~Grimm, P.~Julienne, and E.~Tiesinga.
+\newblock Feshbach resonances in ultracold gases.
+\newblock {\em Rev. Mod. Phys.}, 82:1225--1286, 2010.
+
+\bibitem{Timmermans99}
+E.~Timmermans, P.~Tommasini, M.~S. Hussein, and A.~Kerman.
+\newblock {Feshbach resonances in atomic Bose-Einstein condensates}.
+\newblock {\em {Physics Reports-review Section Of Physics Letters}},
+  {315}({1-3}):{199--230}, {1999}.
+
+\bibitem{Tiesinga93}
+E.~Tiesinga, B.~J. Verhaar, and H.~T.~C. Stoof.
+\newblock {Threshold and resonance phenomena in ultracold ground-state
+  collisions}.
+\newblock {\em Phys. Rev. A}, {47}({5, B}):{4114--4122}, {1993}.
+
+\bibitem{Lysebo09}
+M.~Lysebo and L.~Veseth.
+\newblock {\textit{Ab initio} calculation of Feshbach resonances in cold atomic
+  collisions: $s$- and $p$-wave Feshbach resonances in $^{6}\rm{Li}_{2}$}.
+\newblock {\em Phys. Rev. A}, 79:062704, 2009.
+
+\bibitem{Gao11}
+B.~Gao.
+\newblock {Analytic description of atomic interaction at ultracold
+  temperatures. II. Scattering around a magnetic Feshbach resonance}.
+\newblock {\em Phys. Rev. A}, 84:022706, 2011.
+
+\bibitem{Inouye98}
+S.~Inouye, M.~R. Andrews, J.~Stenger, H.~J. Miesner, D.~M. Stamper-Kurn, and
+  W.~Ketterle.
+\newblock {Observation of Feshbach resonances in a Bose-Einstein condensate}.
+\newblock {\em {Nature}}, {392}({6672}):{151--154}, {1998}.
+
+\bibitem{Cornish00}
+S.~L. Cornish, N.~R. Claussen, J.~L. Roberts, E.~A. Cornell, and C.~E. Wieman.
+\newblock {Stable Rb-85 Bose-Einstein condensates with widely tunable
+  interactions}.
+\newblock {\em Phys. Rev. Lett.}, {85}({9}):{1795--1798}, {2000}.
+
+\bibitem{Regal03}
+C.~A. Regal and D.~S. Jin.
+\newblock {Measurement of positive and negative scattering lengths in a Fermi
+  gas of atoms}.
+\newblock {\em Phys. Rev. Lett.}, 90:230404, 2003.
+
+\bibitem{OHara02}
+K.~M. O'Hara, S.~L. Hemmer, M.~E. Gehm, S.~R. Granade, and J.~E. Thomas.
+\newblock {Observation of a strongly interacting degenerate Fermi gas of
+  atoms}.
+\newblock {\em Science}, 298(5601):2179--2182, 2002.
+
+\bibitem{Monroe93}
+C.~Monroe, E.~Cornell, C.~Sackett, C.~Myatt, and C.~Wieman.
+\newblock {Measurement of Cs-Cs elastic scattering at \textit{T} =30 $\mu${}K}.
+\newblock {\em Phys. Rev. Lett.}, 70:414--417, 1993.
+
+\bibitem{LCT}
+H.J. Metcalf and P.~van~der Straten.
+\newblock {\em Laser Cooling and Trapping}.
+\newblock Graduate Texts in Contemporary Physics. Springer New York, 1999.
+
+\bibitem{Reinaudi07}
+G.~Reinaudi, T.~Lahaye, Z.~Wang, and D.~Gu\'{e}ry-Odelin.
+\newblock {Strong saturation absorption imaging of dense clouds of ultracold
+  atoms}.
+\newblock {\em Opt. Lett.}, 32(21):3143--3145, 2007.
 
 \bibitem{Konstantinidis12}
-Gregory~O. Konstantinidis, Melina Pappa, Gustav Wikstroem, Paul~C. Condylis,
-  Daniel Sahagun, Mark Baker, Olivier Morizot, and Wolf von Klitzing.
+G.~O. Konstantinidis, M.~Pappa, G.~Wikstroem, P.~C. Condylis, D.~Sahagun,
+  M.~Baker, O.~Morizot, and W.~von Klitzing.
 \newblock {Atom number calibration in absorption imaging at very small atom
   numbers}.
 \newblock {\em {Central European Journal Of Physics}}, {10}({5}):{1054--1058},
@@ -86,69 +144,6 @@ Lindsey~J. LeBlanc.
 \newblock {\em {Exploring many-body physics with ultracold atoms}}.
 \newblock PhD thesis, University of Toronto, 2011.
 
-\bibitem{Lin09}
-Y.-J. Lin, A.~R. Perry, R.~L. Compton, I.~B. Spielman, and J.~V. Porto.
-\newblock {Rapid production of $^{87}\rm{Rb}$ Bose-Einstein condensates in a
-  combined magnetic and optical potential}.
-\newblock {\em Phys. Rev. A}, 79:063631, 2009.
-
-\bibitem{Lysebo09}
-M.~Lysebo and L.~Veseth.
-\newblock {\textit{Ab initio} calculation of Feshbach resonances in cold atomic
-  collisions: $s$- and $p$-wave Feshbach resonances in $^{6}\rm{Li}_{2}$}.
-\newblock {\em Phys. Rev. A}, 79:062704, 2009.
-
-\bibitem{LCT}
-H.J. Metcalf and P.~van~der Straten.
-\newblock {\em Laser Cooling and Trapping}.
-\newblock Graduate Texts in Contemporary Physics. Springer New York, 1999.
-
-\bibitem{Monroe93}
-C.~Monroe, E.~Cornell, C.~Sackett, C.~Myatt, and C.~Wieman.
-\newblock {Measurement of Cs-Cs elastic scattering at \textit{T} =30 $\mu${}K}.
-\newblock {\em Phys. Rev. Lett.}, 70:414--417, 1993.
-
-\bibitem{OHara02}
-K.~M. O'Hara, S.~L. Hemmer, M.~E. Gehm, S.~R. Granade, and J.~E. Thomas.
-\newblock {Observation of a strongly interacting degenerate Fermi gas of
-  atoms}.
-\newblock {\em Science}, 298(5601):2179--2182, 2002.
-
-\bibitem{Regal03}
-C.~Regal and D.~Jin.
-\newblock {Measurement of positive and negative scattering lengths in a Fermi
-  gas of atoms}.
-\newblock {\em Phys. Rev. Lett.}, 90:230404, 2003.
-
-\bibitem{Regal04}
-CA~Regal, M~Greiner, and DS~Jin.
-\newblock {Observation of resonance condensation of fermionic atom pairs}.
-\newblock {\em Phys. Rev. Lett.}, {92}({4}), {2004}.
-
-\bibitem{Reinaudi07}
-G.~Reinaudi, T.~Lahaye, Z.~Wang, and D.~Gu\'{e}ry-Odelin.
-\newblock {Strong saturation absorption imaging of dense clouds of ultracold
-  atoms}.
-\newblock {\em Opt. Lett.}, 32(21):3143--3145, 2007.
-
-\bibitem{Tiesinga93}
-E~Tiesinga, BJ~Verhaar, and HTC Stoof.
-\newblock {Threshold and resonance phenomena in ultracold ground-state
-  collisions}.
-\newblock {\em Phys. Rev. A}, {47}({5, B}):{4114--4122}, {1993}.
-
-\bibitem{Timmermans99}
-E~Timmermans, P~Tommasini, MS~Hussein, and A~Kerman.
-\newblock {Feshbach resonances in atomic Bose-Einstein condensates}.
-\newblock {\em {Physics Reports-review Section Of Physics Letters}},
-  {315}({1-3}):{199--230}, {1999}.
-
-\bibitem{KetterleBEC}
-D.S.~Durfee W.~Ketterle and D.M. Stamper-Kurn.
-\newblock {Making, probing and understanding Bose-Einstein condensates.}
-\newblock In {\em Bose-Einstein condensation in atomic gases, Proceedings of
-  the International School of Physics `Enrico Fermi'}, Course CXL, 1999.
-
 \bibitem{Williams13}
 R.~A. Williams, M.~C. Beeler, L.~J. LeBlanc, K.~Jim\'enez-Garc\'{i}a, and I.~B.
   Spielman.
@@ -156,22 +151,38 @@ R.~A. Williams, M.~C. Beeler, L.~J. LeBlanc, K.~Jim\'enez-Garc\'{i}a, and I.~B.
   $s$-wave Feshbach resonance}.
 \newblock {\em Phys. Rev. Lett.}, 111:095301, 2013.
 
+\bibitem{Lin09}
+Y.-J. Lin, A.~R. Perry, R.~L. Compton, I.~B. Spielman, and J.~V. Porto.
+\newblock {Rapid production of $^{87}\rm{Rb}$ Bose-Einstein condensates in a
+  combined magnetic and optical potential}.
+\newblock {\em Phys. Rev. A}, 79:063631, 2009.
+
+\bibitem{KarinaThesis}
+Karina Jimenez-Garcia.
+\newblock {\em Artificial Gauge Fields for Ultracold Neutral Atoms}.
+\newblock PhD thesis, Joint Quantum Institute, National Institute of Standards
+  and Technology, and the University of Maryland, 2012.
+
+\bibitem{BestThesis}
+Thorseten Best.
+\newblock {\em Interacting Bose-Fermi mixtures in optical lattices}.
+\newblock PhD thesis, Johannes Gutenberg-Universitat, 2010.
+
+\bibitem{DeMarco99}
+B.~DeMarco, J.~L. Bohn, J.~P. Burke, M.~Holland, and D.~S. Jin.
+\newblock Measurement of $\mathit{p}$-wave threshold law using evaporatively
+  cooled fermionic atoms.
+\newblock {\em Phys. Rev. Lett.}, 82:4208--4211, 1999.
+
 \bibitem{Wu05}
-Saijun Wu, Ying-Ju Wang, Quentin Diot, and Mara Prentiss.
+S.~Wu, Y.-J. Wang, Q.~Diot, and M.~Prentiss.
 \newblock {Splitting matter waves using an optimized standing-wave light-pulse
   sequence}.
 \newblock {\em Phys. Rev. A}, 71:043602, 2005.
 
-\bibitem{Zwierlein03}
-M.~W. Zwierlein, C.~A. Stan, C.~H. Schunck, S.~M.~F. Raupach, S.~Gupta,
-  Z.~Hadzibabic, and W.~Ketterle.
-\newblock {Observation of Bose-Einstein condensation of molecules}.
-\newblock {\em Phys. Rev. Lett.}, 91:250401, 2003.
-
-\bibitem{Zwierlein04}
-M.~W. Zwierlein, C.~A. Stan, C.~H. Schunck, S.~M.~F. Raupach, A.~J. Kerman, and
-  W.~Ketterle.
-\newblock {Condensation of pairs of Fermionic atoms near a Feshbach resonance}.
-\newblock {\em Phys. Rev. Lett.}, 92:120403, 2004.
+\bibitem{Edwards10}
+M.~Edwards, B.~Benton, J.~Heward, and C.~W. Clark.
+\newblock Momentum-space engineering of gaseous bose-einstein condensates.
+\newblock {\em Phys. Rev. A}, 82:063613, 2010.
 
 \end{thebibliography}
